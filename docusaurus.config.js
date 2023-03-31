@@ -25,12 +25,12 @@ module.exports= {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://gitlab.com/fernandogprieto/website',
+            'https://gitlab.com/fernandogprieto/fgp-website',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://gitlab.com/fernandogprieto/website',
+            'https://gitlab.com/fernandogprieto/fgp-website',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -50,10 +50,15 @@ module.exports= {
         },
         items: [
           {
+           to:'projects/',
+           label: 'Projects',
+           position: 'right'
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'right',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {
             to: '/blog', 
@@ -65,7 +70,7 @@ module.exports= {
             position: 'right',
           },
           {
-            href: 'https://gitlab.com/fernandogprieto/website',
+            href: 'https://gitlab.com/fernandogprieto/fgp-website',
             label: 'Gitlab',
             position: 'right',
           },
@@ -86,7 +91,7 @@ module.exports= {
             title: 'Guides',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs',
                 to: '/docs/intro',
               },
             ],
@@ -100,7 +105,7 @@ module.exports= {
               },
               {
                 label: 'Gitlab',
-                href: 'https://gitlab.com/fernandogprieto/website',
+                href: 'https://gitlab.com/fernandogprieto/fgp-website',
               },
               {              
                 label: 'LinkedIn',
@@ -121,7 +126,7 @@ module.exports= {
               },
               {
                 label: 'Status',
-                href: 'https://gitlab.com/fernandogprieto/website',
+                href: 'https://gitlab.com/fernandogprieto/fgp-website',
               },
             ],
           },
