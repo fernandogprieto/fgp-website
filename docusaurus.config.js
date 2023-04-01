@@ -61,9 +61,19 @@ module.exports= {
             label: 'Docs',
           },
           {
+           to: 'about/',
+           label: 'About',
+           position: 'right',
+         },
+          {
             to: '/blog', 
             label: 'Blog', 
             position: 'right'
+          },
+          {
+            to: 'contact/',
+            label: 'Contact',
+            position: 'right',
           },
           {
             type: 'localeDropdown',
@@ -83,6 +93,11 @@ module.exports= {
       prism: {
         theme: require('prism-react-renderer/themes/github'),
         darkCodeTheme: require('prism-react-renderer/themes/dracula'),
+      },
+      algolia: {
+        appId:'24X5RPXC2W',
+        apiKey: 'c1ebac2e4c8c6cd3742be4b3b79d77d2',
+        indexName: 'fgp_website',
       },
       footer: {
         style: 'dark',
