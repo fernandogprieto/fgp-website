@@ -1,5 +1,5 @@
-# Welcome to my personal website.
+# My website.
 
-This website is built using Docusaurus
+Welcome to my website [fernandogprieto.com](https://www.fernandogprieto.com/)
 
-Hello and welcome to my personal site! I'm thrilled to present my varied portfolio, which showcases my talents and accomplishments across several fields. When you browse the site, you'll discover a plethora of tools to help you learn and improve, such as thorough documentation, simple tutorials, and thought-provoking blog posts on a variety of themes.
+I'm thrilled to present my varied portfolio, which showcases my talents and accomplishments across several fields. When you browse the site, you'll discover a plethora of tools to help you learn and improve, such as thorough documentation, simple tutorials, and thought-provoking blog posts on a variety of themes.
