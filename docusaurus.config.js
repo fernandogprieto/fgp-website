@@ -1,15 +1,14 @@
 
  module.exports= {
-  title: 'Fernando G. Prieto -- Website',
-  tagline: 'Passionately investigate, learn, and create',
+  title: 'Fernando G. Prieto | IT Specialist and Cloud Certifications Training',
+  tagline: "IT Specialist specializing in professional development and technological trends. Currently pursuing Cloud Engineering certifications with a focus on cloud-native, open-source, and AI technologies.",
   favicon: 'img/favicon.ico',
   url: 'https://fernandogprieto.com',
   baseUrl: '/',
-  organizationName: 'fernandogprieto', 
   projectName: 'fgp-website', 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
+  
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'es'],
@@ -92,14 +91,14 @@
           },
         ],
       },
-      prism: {
-        theme: require('prism-react-renderer/themes/github'),
-        darkCodeTheme: require('prism-react-renderer/themes/dracula')
-      },
       algolia: {
         appId:'24X5RPXC2W',
         apiKey: 'c1ebac2e4c8c6cd3742be4b3b79d77d2',
         indexName: 'fgp_website',
+      },
+      prism: {
+        theme: require('prism-react-renderer/themes/github'),
+        darkCodeTheme: require('prism-react-renderer/themes/dracula')
       },
       footer: {
         style: 'dark',
