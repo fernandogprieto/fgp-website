@@ -1,4 +1,4 @@
-# My website.
+# My website
 
 Welcome to my website [fernandogprieto.com](https://www.fernandogprieto.com/)
 
