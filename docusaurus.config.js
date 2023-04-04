@@ -1,6 +1,6 @@
 
  module.exports= {
-  title: 'Fernando G. Prieto | IT Specialist and Cloud Certifications Training',
+  title: 'Fernando G. Prieto | IT Specialist and Cloud Computing Training',
   tagline: "IT Specialist specializing in professional development and technological trends. Currently pursuing Cloud Engineering certifications with a focus on cloud-native, open-source, and AI technologies.",
   favicon: 'img/favicon.ico',
   url: 'https://fernandogprieto.com',
@@ -101,7 +101,7 @@
         darkCodeTheme: require('prism-react-renderer/themes/dracula')
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Guides',
