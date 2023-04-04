@@ -41,5 +41,10 @@ h5 {
 
 .hero__title {
   margin-top: 300px; /* Adjust the value as needed */
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 45px;
+  line-height: 1.2;
 }
-
