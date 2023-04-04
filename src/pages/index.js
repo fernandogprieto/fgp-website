@@ -14,7 +14,7 @@ function HomepageHeader() {
       <div className="container">
         <div className='row'>
           <div className='col col--6'>
-          <h1 className="hero__title">Welcome to my Cloud Journey </h1>
+          <h1 className="hero__title"> Welcome to my Cloud Journey</h1>
           <p>#Cloud, #Innovation, #Technology, #OpenSource</p>
           </div>
           <div className='col col--6'>
