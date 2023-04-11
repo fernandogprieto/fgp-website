@@ -1,5 +1,6 @@
 
- module.exports= {
+/** @type {import('@docusaurus/types').Config} */ 
+const config = {
   title: 'Fernando G. Prieto | IT Specialist and Cloud Computing Training',
   tagline: "IT Specialist specializing in professional development and technological trends. Currently pursuing Cloud Engineering certifications with a focus on cloud-native, open-source, and AI technologies.",
   favicon: 'img/favicon.ico',
@@ -38,7 +39,8 @@
       }),
     ],
   ],
-
+    
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -147,3 +149,5 @@
       },
     },
 };
+
+module.exports = config
