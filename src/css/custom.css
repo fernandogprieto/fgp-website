@@ -48,3 +48,13 @@ h5 {
 p {
   text-align: justify;
 }
+
+.justified {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.justified > p {
+  text-align: inherit;
+  }
