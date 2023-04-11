@@ -13,11 +13,11 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <div className='row'>
-          <div className='col col--6'>
+          <div className='col col--6 justified'>
           <h1 className="hero__title"> Welcome to my Cloud Journey</h1>
           <p>#Cloud, #Innovation, #Technology, #OpenSource</p>
           </div>
-          <div className='col col--6'>
+          <div className='col col--6 justified'>
               <img src="./img/cloud.svg" />
             </div>
           </div>
