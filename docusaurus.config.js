@@ -38,20 +38,7 @@
       }),
     ],
   ],
-  plugins: [
-    "docusaurus-plugin-sass",
-    [
-      "@docusaurus/plugin-ideal-image",
-      {
-        quality: 85,
-        max: 2000,
-        min: 500,
-        steps: 4,
-        disableInDev: false,
-      },
-    ],
-  ],
-  
+
   themeConfig: {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
