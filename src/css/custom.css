@@ -43,3 +43,8 @@ h5 {
   margin-top: 300px; /* Adjust the value as needed */
   text-overflow: ellipsis;
 }
+
+/* global-styles.css */
+p {
+  text-align: justify;
+}
