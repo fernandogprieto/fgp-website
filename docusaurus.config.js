@@ -9,7 +9,7 @@ const config = {
   projectName: 'fgp-website', 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'es'],
@@ -19,27 +19,6 @@ const config = {
     }
   },
 
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://gitlab.com/fernandogprieto/fgp-website',
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://gitlab.com/fernandogprieto/fgp-website',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
-    ],
-  ],
-    
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
       image: 'img/docusaurus-social-card.jpg',
@@ -67,7 +46,7 @@ const config = {
            position: 'right',
          },
           {
-            to: '/blog', 
+            to: 'blog/', 
             label: 'Blog', 
             position: 'right'
           },
@@ -89,15 +68,6 @@ const config = {
           },
         ],
       },
-      algolia: {
-        appId:'24X5RPXC2W',
-        apiKey: 'c1ebac2e4c8c6cd3742be4b3b79d77d2',
-        indexName: 'fgp_website',
-      },
-      prism: {
-        theme: require('prism-react-renderer/themes/github'),
-        darkCodeTheme: require('prism-react-renderer/themes/dracula')
-      },
       footer: {
         style: 'light',
         links: [
@@ -106,7 +76,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: 'docs/intro',
               },
             ],
           },
@@ -115,7 +85,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: 'blog/',
               },
               {
                 label: 'Gitlab',
@@ -128,6 +98,10 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/fernandogprieto',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/zAZC37Mfxp',
               },
             ],
           },
@@ -147,7 +121,37 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Fernando Prieto Website. Built with Docusaurus.`,
       },
+      algolia: {
+        appId:'24X5RPXC2W',
+        apiKey: 'c1ebac2e4c8c6cd3742be4b3b79d77d2',
+        indexName: 'fgp_website',
+      },
+      prism: {
+        theme: require('prism-react-renderer/themes/github'),
+        darkCodeTheme: require('prism-react-renderer/themes/dracula')
+      },
     },
+    
+  presets: [
+      [
+        '@docusaurus/preset-classic',
+        ({
+          docs: {
+            sidebarPath: require.resolve('./sidebars.js'),
+            editUrl:
+              'https://gitlab.com/fernandogprieto/fgp-website',
+          },
+          blog: {
+            showReadingTime: true,
+            editUrl:
+              'https://gitlab.com/fernandogprieto/fgp-website',
+          },
+          theme: {
+            customCss: require.resolve('./src/css/custom.css'),
+          },
+        }),
+      ],
+    ], 
 };
 
 module.exports = config
