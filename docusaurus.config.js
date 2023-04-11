@@ -29,11 +29,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
+          /* {
            to:'projects/',
            label: 'Projects',
            position: 'right'
-          },
+          }, */
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -72,7 +72,7 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Guides',
+            title: 'Learn',
             items: [
               {
                 label: 'Docs',
