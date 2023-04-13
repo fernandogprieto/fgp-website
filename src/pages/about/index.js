@@ -1,20 +1,23 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-export default function Hello() {
+export default function About() {
   return (
-    <Layout title="Hello" description="Hello React Page">
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '50vh',
-          fontSize: '20px',
-        }}>
-        <p>
-          Edit <code>pages/helloReact.js</code> and save to reload.
-        </p>
+    <Layout title="About" description="About Page">
+      <div className="container">
+        <div className="row">
+          <div className="col col--6">
+            <h2>About Me</h2>
+            <p>
+              Hi, I'm [Your Name]. I am a [Your Profession] with expertise in [Your Expertise].
+              I have been working in the industry for [Number of Years] years and have developed
+              a strong skillset in [List of Skills].
+            </p>
+          </div>
+          <div className="col col--6">
+          <img src="/static/img/cloud.svg" />
+          </div>
+        </div>
       </div>
     </Layout>
   );
