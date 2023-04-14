@@ -1,14 +1,30 @@
 import React from 'react';
+import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import AboutComponent from '../../components/about/AboutComponent.jsx';
+import styles from './about.module.css';
 
-function AboutPage() {
+function AboutpageHeader() {
   return (
-    <Layout title="About" description="About Page">
-      <AboutComponent />
-      <img src="/static/img/logo.svg" />
-    </Layout>
+    <header className={clsx('about', styles.about)}>
+      <div className="container">
+        <div className='row'>
+          <div className='col col--6 '>
+          <h1 className="about_title "> About me</h1>
+          <p>  </p>
+          </div>
+          <div className='col col--4 avatar'>
+              <img className='avatar-1' src="https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/avatar.jpg"/>
+            </div>
+          </div>
+        </div>
+    </header>
   );
 }
 
-export default AboutPage;
+export default function About() {
+  return (
+    <Layout>
+      <AboutpageHeader />
+    </Layout>
+  );
+}
