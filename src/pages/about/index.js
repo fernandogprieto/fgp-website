@@ -9,13 +9,11 @@ function AboutpageHeader() {
       <div className="container">
         <div className='row'>
           <div className='col col--6 '>
-          <h1 title="About me">About me</h1>
-
-          <h3> IT Support Specialist | Service Specialist | Engineering | Customer Service | Cloud Computing Training </h3>
-
-           <p> My expertise extends to working in a cloud-native environment, utilizing technologies such as Kubernetes,
-            Terraform, and Python, as well as applying microservices, infrastructure technologies, and observability tools.
-            I am proficient in Linux, Windows, and ITIL processes.</p>
+          <h1 className="about-title" title="About me">About me</h1>
+          <h3 className="about-title"> IT Support Specialist | Service Specialist | Engineering | Customer Service | Cloud Computing Training </h3>
+           <p>My expertise includes working in cloud-native environments, utilizing technologies such as Kubernetes, Terraform, and Python.
+            I am also skilled in applying microservices, infrastructure technologies, and observability tools. In addition, I am proficient
+            in Linux, Windows, and ITIL processes.</p>
 
             <p>I'm open source and cloud-native enthusiast. I enjoy discovering new technologies, contributing to community projects,
               and sharing my expertise with others in order to foster innovation and cooperation in the IT sector.</p>
