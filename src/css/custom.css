@@ -57,4 +57,17 @@ p {
 
 .justified > p {
   text-align: inherit;
-  }
+}
+
+.about {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.avatar-1 {
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+}
+
