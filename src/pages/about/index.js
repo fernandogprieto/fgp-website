@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import styles from './about.module.css';
 
+
 function AboutpageHeader() {
   return (
     <header className={clsx('about', styles.about)}>
@@ -17,8 +18,10 @@ function AboutpageHeader() {
 
             <p>I'm open source and cloud-native enthusiast. I enjoy discovering new technologies, contributing to community projects,
               and sharing my expertise with others in order to foster innovation and cooperation in the IT sector.</p>
-              <div class="svg_row" >
-                <img src='@site/static/svg/gitlab.svg' />
+              <div className="svg_row" >
+                <img
+                src='https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord.svg'
+                srcDark='/static/svg/discord_light.svg' />
               </div>
           </div>
           <div className='col col--4 avatar-container' >
