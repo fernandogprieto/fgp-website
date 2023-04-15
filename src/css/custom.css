@@ -74,3 +74,14 @@ p {
 .about-title {
   text-align: left;
 }
+
+.avatar-container {
+  margin: auto;
+}
+
+.svg_row {
+  align-self: center;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
