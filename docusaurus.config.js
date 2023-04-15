@@ -26,7 +26,7 @@ const config = {
         title: 'Fernando G. Prieto',
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          src: 'svg/logo.svg',
         },
         items: [
           /* {
@@ -128,6 +128,7 @@ const config = {
       },
       prism: {
         theme: require('prism-react-renderer/themes/github'),
+
         darkCodeTheme: require('prism-react-renderer/themes/dracula')
       },
     },

@@ -17,9 +17,12 @@ function AboutpageHeader() {
 
             <p>I'm open source and cloud-native enthusiast. I enjoy discovering new technologies, contributing to community projects,
               and sharing my expertise with others in order to foster innovation and cooperation in the IT sector.</p>
+              <div class="svg_row" >
+                <img src='@site/static/svg/gitlab.svg' />
+              </div>
           </div>
-          <div className='col col--4'>
-              <img className='avatar-1' src="https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/avatar.jpg"/>
+          <div className='col col--4 avatar-container' >
+              <img className='avatar-1' src= 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/avatar.jpg' />
             </div>
           </div>
         </div>

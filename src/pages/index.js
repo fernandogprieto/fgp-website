@@ -16,7 +16,7 @@ function HomepageHeader() {
           <p>#Cloud, #Innovation, #Technology, #OpenSource</p>
           </div>
           <div className='col col--6 justified'>
-              <img src="./img/cloud.svg" />
+              <img src="./svg/cloud.svg" />
             </div>
           </div>
         </div>
