@@ -51,11 +51,6 @@ const config = {
             position: 'right'
           },
           {
-            to: 'contact/',
-            label: 'Contact',
-            position: 'right',
-          },
-          {
             type: 'localeDropdown',
             position: 'right',
           },
@@ -75,6 +70,10 @@ const config = {
             title: 'Learn',
             items: [
               {
+                label:'Projects',
+                to:'projects/'
+              },
+              {
                 label: 'Docs',
                 to: 'docs/intro',
               },
@@ -83,6 +82,11 @@ const config = {
           {
             title: 'Social',
             items: [
+              {
+                label: 'Email me',
+                href: 'mailto:prieto.fernandog@gmail.com',
+                type: 'link',
+              },
               {
                 label: 'Blog',
                 to: 'blog/',
@@ -109,10 +113,6 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Contact',
-                to: '/blog',
-              },
-              {
                 label: 'Status',
                 href: 'https://gitlab.com/fernandogprieto/fgp-website',
               },
@@ -128,7 +128,6 @@ const config = {
       },
       prism: {
         theme: require('prism-react-renderer/themes/github'),
-
         darkCodeTheme: require('prism-react-renderer/themes/dracula')
       },
     },
@@ -158,10 +157,6 @@ const config = {
       [
         "@docusaurus/plugin-ideal-image",
         {
-        quality: 70,
-        max: 1030, //
-        min: 640, //
-        steps: 2, //
         disableInDev: false,
         },
       ],
