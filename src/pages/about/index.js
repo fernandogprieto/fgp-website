@@ -19,17 +19,15 @@ function AboutpageHeader() {
             <p>I'm open source and cloud-native enthusiast. I enjoy discovering new technologies, contributing to community projects,
               and sharing my expertise with others in order to foster innovation and cooperation in the IT sector.</p>
               <div className="svg_row" >
-              <ThemedImage
-                alt="Discord icon"
-                sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord_light.svg',
-                }}
-              />
-
-                <img
-                src='https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord.svg'
-                srcDark='https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord_light.svg' />
+              <a href="https://gitlab.com/fernandogprieto/fgp-website" target="_blank" rel="noopener noreferrer">
+                <ThemedImage
+                  alt="Discord icon"
+                  sources={{
+                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord-dark.svg',
+                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord-light.svg',
+                  }}
+                />
+              </a>
               </div>
           </div>
           <div className='col col--4 avatar-container' >
