@@ -23,7 +23,7 @@ function AboutpageHeader() {
                 <ThemedImage
                   alt="Discord icon"
                   sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord-dark.svg',
+                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord.svg',
                   dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord-light.svg',
                   }}
                 />
