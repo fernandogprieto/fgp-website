@@ -41,8 +41,8 @@ function AboutpageHeader() {
                 <ThemedImage
                   alt="Discord icon"
                   sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify-light.svg',
+                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord.svg',
+                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord-light.svg',
                   }}
                 />
               </a>
@@ -50,8 +50,8 @@ function AboutpageHeader() {
                 <ThemedImage
                   alt="Twitter icon"
                   sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify-light.svg',
+                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/twitter.svg',
+                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/twitter-light.svg',
                   }}
                 />
               </a>
@@ -59,8 +59,8 @@ function AboutpageHeader() {
                 <ThemedImage
                   alt="LinkedIn icon"
                   sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify-light.svg',
+                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/linkedin.svg',
+                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/linkedin-light.svg',
                   }}
                 />
               </a>
@@ -68,8 +68,8 @@ function AboutpageHeader() {
                 <ThemedImage
                   alt="Creedly icon"
                   sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify-light.svg',
+                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/credly.svg',
+                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/credly-light.svg',
                   }}
                 />
               </a>
@@ -77,8 +77,8 @@ function AboutpageHeader() {
                 <ThemedImage
                   alt="Dev Community icon"
                   sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify-light.svg',
+                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/dev-to-.svg',
+                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/dev-to-light.svg',
                   }}
                 />
               </a>
@@ -86,8 +86,8 @@ function AboutpageHeader() {
                 <ThemedImage
                   alt="Google developer icon"
                   sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify-light.svg',
+                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/google-developers.svg',
+                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/google-developers-light-2.svg',
                   }}
                 />
               </a>
