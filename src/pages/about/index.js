@@ -77,7 +77,7 @@ function AboutpageHeader() {
                 <ThemedImage
                   alt="Dev Community icon"
                   sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/dev-to-.svg',
+                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/dev-to.svg',
                   dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/dev-to-light.svg',
                   }}
                 />
@@ -87,7 +87,7 @@ function AboutpageHeader() {
                   alt="Google developer icon"
                   sources={{
                   light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/google-developers.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/google-developers-light-2.svg',
+                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/google-developers-light.svg',
                   }}
                 />
               </a>
