@@ -87,7 +87,7 @@ function AboutpageHeader() {
                   alt="Google developer icon"
                   sources={{
                   light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/google-developers.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/google-developers-light.svg',
+                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/google-developers-light .svg',
                   }}
                 />
               </a>
