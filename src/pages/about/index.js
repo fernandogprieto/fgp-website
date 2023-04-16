@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import styles from './about.module.css';
-
+import ThemedImage from '@theme/ThemedImage';
 
 function AboutpageHeader() {
   return (
@@ -19,9 +19,17 @@ function AboutpageHeader() {
             <p>I'm open source and cloud-native enthusiast. I enjoy discovering new technologies, contributing to community projects,
               and sharing my expertise with others in order to foster innovation and cooperation in the IT sector.</p>
               <div className="svg_row" >
+              <ThemedImage
+                alt="Discord icon"
+                sources={{
+                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord.svg',
+                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord_light.svg',
+                }}
+              />
+
                 <img
                 src='https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord.svg'
-                srcDark='/static/svg/discord_light.svg' />
+                srcDark='https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord_light.svg' />
               </div>
           </div>
           <div className='col col--4 avatar-container' >
