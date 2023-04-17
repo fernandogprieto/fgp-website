@@ -2,6 +2,7 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Fernando G. Prieto | IT Specialist and Cloud Computing Training',
+  titleDelimiter: '-',
   tagline: "IT Specialist specializing in professional development and technological trends. Currently pursuing Cloud Engineering certifications with a focus on cloud-native, open-source, and AI technologies.",
   favicon: 'img/favicon.ico',
   url: 'https://fernandogprieto.com',
@@ -41,15 +42,15 @@ const config = {
             label: 'Docs',
           },
           {
-           to: 'about/',
-           label: 'About',
-           position: 'right',
-         },
-          {
             to: 'blog/',
             label: 'Blog',
             position: 'right'
           },
+          {
+           to: 'about/',
+           label: 'About',
+           position: 'right',
+         },
           {
             type: 'localeDropdown',
             position: 'right',
@@ -144,7 +145,7 @@ const config = {
           blog: {
             showReadingTime: true,
             editUrl:
-              'https://gitlab.com/fernandogprieto/fgp-website',
+              'https://gitlab.com/fernandogprieto/fgp-website/blog',
           },
           theme: {
             customCss: require.resolve('./src/css/custom.css'),
