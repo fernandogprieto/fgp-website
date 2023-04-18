@@ -23,12 +23,18 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
       image: 'img/it.png',
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       navbar: {
         title: 'Fernando G. Prieto',
         logo: {
           alt: 'Logo',
           src: 'svg/logo.svg',
         },
+        hideOnScroll: true,
         items: [
           /* {
            to:'projects/',
@@ -44,7 +50,7 @@ const config = {
           {
             to: 'blog/',
             label: 'Blog',
-            position: 'right'
+            position: 'right',
           },
           {
            to: 'about/',
@@ -138,10 +144,9 @@ const config = {
         '@docusaurus/preset-classic',
         ({
           docs: {
-            sidebarPath: require.resolve('./sidebars.js'),
-            editUrl:
-              'https://gitlab.com/fernandogprieto/fgp-website',
-          },
+              sidebarPath: require.resolve('./sidebars.js'),
+              editUrl:'https://gitlab.com/fernandogprieto/fgp-website',
+            },
           blog: {
             showReadingTime: true,
             editUrl:
