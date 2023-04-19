@@ -1,6 +1,0 @@
----
-id: tutorial-congratulations
----
-
-# Congratulations!
-

@@ -3,32 +3,11 @@ id: welcome
 slug: /projects
 ---
 
-# Welcome to my Documentation
+# Welcome 
 
-Explore my personal learning portal, where I publish detailed notes on a variety of technological stacks. Explore my diverse portfolio, which highlights my talents and accomplishments. This website provides substantial documentation, simple tutorials, and informative blog pieces to help you on your learning journey. Join me as I exhibit my portfolio and provide resources gleaned from my personal learning experiences and thoughts.
+Hello and welcome! This is where I share my interest of creating and learning via various projects. I am happy to bring up my journey and experiences with you. Explore and  join me as we explore the worlds of cloud, technology, mlops, innovation and ai.
 
-## Topics
-- Multi-Cloud:
-  - Amazon Web Services (AWS)
-  - Microsoft Azure (Azure)
-  - Google Cloud Platform (GCP)
-- Kubernetes
-- Docker
-- Python
-- Dotfiles
-- Infraestructure as a code:
-  - Terraform
-  - Ansible
-  - Obervability and Monitoring
-- Sysadmin
-  - Active Directory
-  - Linux Administration
-- Scripting
-- Git
-- Database
-- Microservices (Nginx)
- 
- ## Projects
- - Personal Project
- - Colaborations
- - Blog (IFTT)
+## Projects
+- My Cloud Journey: This is my personal website where I using Docusaurus to management documentation, responsive design, blog, search, customization, and localization. 
+- Cloud Resume Challenge: (under construction)
+- Guides and Tutorials: (under construction)
