@@ -21,14 +21,14 @@
   projects: [
     'projects/welcome',
     {
-      label: 'My Personal Website',
+      label: 'My Cloud Journey',
       type: 'category',
       link: {
         type: 'doc',
-        id: 'projects/cloud-resume-challenge/cloud-translate'
+        id: 'projects/personal-website/intro'
       },
       items: [
-        'projects/cloud-resume-challenge/manage-docs',
+        'projects/personal-website/configuration',
       ],
     },
   ],
