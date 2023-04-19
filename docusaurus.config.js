@@ -42,10 +42,14 @@ const config = {
            position: 'right'
           }, */
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
             position: 'right',
             label: 'Docs',
+            items: [
+              {
+              label: 'Projects',
+              to: 'docs/projects',
+              },
+            ],
           },
           {
             to: 'blog/',
@@ -82,7 +86,7 @@ const config = {
               },
               {
                 label: 'Docs',
-                to: 'docs/intro',
+                to: 'docs/introduction',
               },
             ],
           },
@@ -144,8 +148,8 @@ const config = {
         '@docusaurus/preset-classic',
         ({
           docs: {
-              sidebarPath: require.resolve('./sidebars.js'),
-              editUrl:'https://gitlab.com/fernandogprieto/fgp-website',
+              path: 'docs',
+              sidebarPath: 'sidebars.js',
             },
           blog: {
             showReadingTime: true,
