@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+id: welcome
+slug: /projects
 ---
 
 # Welcome to my Documentation
