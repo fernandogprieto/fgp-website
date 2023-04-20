@@ -1,5 +1,0 @@
----
-id: configuration
----
-
-# Config

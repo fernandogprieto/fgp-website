@@ -21,14 +21,16 @@
   projects: [
     'projects/welcome',
     {
-      label: 'My Cloud Journey',
+      label: 'My Cloud Journey Project - Docusaurus Website',
       type: 'category',
       link: {
         type: 'doc',
-        id: 'projects/personal-website/intro'
+        id: 'projects/docusaurus/docusaurus-intro'
       },
       items: [
-        'projects/personal-website/configuration',
+        'projects/docusaurus/docusaurus-configuration',
+        'projects/docusaurus/docusaurus-search',
+        'projects/docusaurus/docusaurus-locale',
       ],
     },
   ],

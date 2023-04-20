@@ -1,7 +1,0 @@
----
-id: intro
----
-
-# Intro!
-
-TEST
