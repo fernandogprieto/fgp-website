@@ -3,11 +3,11 @@ id: welcome
 slug: /projects
 ---
 
-# Welcome 
+# Welcome
 
-Hello and welcome! This is where I share my interest of creating and learning via various projects. I am happy to bring up my journey and experiences with you. Explore and  join me as we explore the worlds of cloud, technology, mlops, innovation and ai.
+Hello and welcome! This is the place where I share my passion for creating and learning through various projects. I'm excited to share my journey and experiences with you. Join me as we explore the realms of cloud, technology, MLOps, innovation, and AI.
 
 ## Projects
-- My Cloud Journey: This is my personal website where I using Docusaurus to management documentation, responsive design, blog, search, customization, and localization. 
-- Cloud Resume Challenge: (under construction)
-- Guides and Tutorials: (under construction)
+- **My Cloud Journey:** This is my personal website, where I use Docusaurus to manage documentation, ensure responsive design, and enable features such as blogging, searching, customization, and localization.
+- **Cloud Resume Challenge:** (under construction)
+- **Guides and Tutorials:** (under construction)
