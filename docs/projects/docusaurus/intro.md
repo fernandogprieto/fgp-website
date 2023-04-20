@@ -6,8 +6,6 @@ authors: fernandogprieto
 keywords: ['guides', 'docusaurus', 'docusaurus-guides']
 ---
 
-# My Cloud Journey Project - Docusaurus Website
-
 Welcome to my personal website, where I've leveraged the power of Docusaurus to create a comprehensive, responsive, and user-friendly platform. Here, you can explore my documentation, blog, and other content, all organized and presented with Docusaurus' robust features.
 
 Through Docusaurus, I've been able to achieve:
