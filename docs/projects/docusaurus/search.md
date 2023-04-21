@@ -8,10 +8,12 @@ authors: fernandogprieto
 > [Search | Docusaurus](https://docusaurus.io/docs/search) 
 
 
-# Algolia
+## Algolia
 There are a few options you can use to add search to your website. In this project I choose Run Your Own by DocSearch.
 
 > [Run your own | Docsearch](https://docsearch.algolia.com/docs/run-your-own)
+
+### Path:
 
 - First you need to create an [Algolia account](https://www.algolia.com/)
 - Then create an index in indices:
@@ -34,17 +36,21 @@ themeConfig: {
 }
 ```
 - Create a `.env` in your file root, You need to use your Admin API Key
+- 
 ```
 APPLICATION_ID=YOUR_APP_ID
 API_KEY=YOUR_API_KEY
 ```
+
 - Verify if you have install the [jq](https://github.com/stedolan/jq/wiki/Installation), but I don't installed I only use this:
+  
 ```
 [root@fgpserver fernandogprieto.com]# jq --version
 jq-1.6
 ```
+
 - Then create a file in the project directory, the content of which can be referred to as follows (replace the highlighted part with your website)`docsearch.json`. you could use a docsearch-config found at https://github.com/algolia/docsearch-configs to update the algolia settings for your site.
-  
+   
 ```json title='docsearch.json' {2-4}
 {
   "index_name": "xxxx",
@@ -127,15 +133,20 @@ jq-1.6
     ]
   }
 }
-
+```
 
 - Execute the Docker command to initiate the container and run the application as and admin:
+
 ```sh
 docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)" algolia/docsearch-scraper
 ```
 
-
 ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/docker.png)
 
+- Check your Algolia Dashboard:
+  
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/algolia.png)
+
+### Gitlab
 
 
