@@ -9,7 +9,7 @@ authors: fernandogprieto
 
 
 ## Algolia
-There are a few options you can use to add search to your website. In this project I choose `Run Your Own by DocSearc`.
+There are a few options you can use to add search to your website. In this project I choose `Run Your Own by DocSearch`.
 
 > [Run your own | Docsearch](https://docsearch.algolia.com/docs/run-your-own)
 
@@ -35,14 +35,15 @@ themeConfig: {
   },
 }
 ```
+
 - Create a `.env` in your file root, you need to use your Admin API Key
-- 
+
 ```
 APPLICATION_ID=YOUR_APP_ID
 API_KEY=YOUR_API_KEY
 ```
 
-- Verify if you have install the [jq](https://github.com/stedolan/jq/wiki/Installation), but I don't installed I only use this:
+-Please ensure that you have installed [jq](https://github.com/stedolan/jq/wiki/Installation). However, I personally haven't installed it and simply used the following command: 
   
 ```
 [root@fgpserver fernandogprieto.com]# jq --version
@@ -147,7 +148,7 @@ docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)
   
 ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/algolia.png)
 
-### Gitlab
+### Gitlab CI/CD
 
 ```yaml title='.gitlab-ci.yml'
 stages:
