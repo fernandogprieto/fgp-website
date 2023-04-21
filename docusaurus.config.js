@@ -134,7 +134,7 @@ const config = {
       },
       algolia: {
         appId:'24X5RPXC2W',
-        apiKey: 'c1ebac2e4c8c6cd3742be4b3b79d77d2',
+        apiKey: 'd0323dc4555cbc82de6d1a01234ced7e',
         indexName: 'fgp_website',
       },
       prism: {
