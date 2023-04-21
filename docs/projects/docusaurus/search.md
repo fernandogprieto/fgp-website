@@ -9,7 +9,7 @@ authors: fernandogprieto
 
 
 ## Algolia
-There are a few options you can use to add search to your website. In this project I choose Run Your Own by DocSearch.
+There are a few options you can use to add search to your website. In this project I choose `Run Your Own by DocSearc`.
 
 > [Run your own | Docsearch](https://docsearch.algolia.com/docs/run-your-own)
 
@@ -35,7 +35,7 @@ themeConfig: {
   },
 }
 ```
-- Create a `.env` in your file root, You need to use your Admin API Key
+- Create a `.env` in your file root, you need to use your Admin API Key
 - 
 ```
 APPLICATION_ID=YOUR_APP_ID
@@ -49,7 +49,7 @@ API_KEY=YOUR_API_KEY
 jq-1.6
 ```
 
-- Then create a file in the project directory, the content of which can be referred to as follows (replace the highlighted part with your website)`docsearch.json`. you could use a docsearch-config found at https://github.com/algolia/docsearch-configs to update the algolia settings for your site.
+- Then create a file in the project directory, `docsearch.json`. You could use a `docsearch-config` found at https://github.com/algolia/docsearch-configs to update the algolia settings for your site`
    
 ```json title='docsearch.json' {2-4}
 {
@@ -149,4 +149,24 @@ docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)
 
 ### Gitlab
 
+```yaml title='.gitlab-ci.yml'
+stages:
+  - docsearch
+
+docsearch:
+  stage: docsearch
+  image: docker:latest
+  services:
+    - docker:dind
+  variables:
+    ALGOLIA_APP_ID: $ALGOLIA_APP_ID
+    ALGOLIA_API_KEY: $ALGOLIA_API_KEY
+  script:
+    - apk add --no-cache git jq
+    - CONFIG=$(cat docsearch.json | jq -r tostring)
+    - echo "Running Algolia DocSearch scraper with config: $CONFIG"
+    - docker run --env APPLICATION_ID=${ALGOLIA_APP_ID} --env API_KEY=${ALGOLIA_API_KEY} --env "CONFIG=${CONFIG}" algolia/docsearch-scraper
+  rules:
+    - if: '$CI_COMMIT_TAG || $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "master"'
+```
 
