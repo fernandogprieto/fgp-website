@@ -134,9 +134,8 @@ const config = {
       },
       algolia: {
         appId:'24X5RPXC2W',
-        apiKey: '458b0ffd46d1ba2e6521bb9c68fa3a9a',
+        apiKey: '5b4935545231c4855105b3255c4ec7a0',
         indexName: 'fgp_website',
-        contextualSearch: true,
       },
       prism: {
         theme: require('prism-react-renderer/themes/github'),
