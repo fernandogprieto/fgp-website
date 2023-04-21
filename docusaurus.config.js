@@ -132,11 +132,11 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Fernando Prieto Website. Built with Docusaurus.`,
       },
-      algolia: {
+      /*algolia: {
         appId:'24X5RPXC2W',
         apiKey: 'd0323dc4555cbc82de6d1a01234ced7e',
         indexName: 'fgp_website',
-      },
+      }, */
       prism: {
         theme: require('prism-react-renderer/themes/github'),
         darkCodeTheme: require('prism-react-renderer/themes/dracula')
@@ -170,6 +170,7 @@ const config = {
         disableInDev: false,
         },
       ],
+      require.resolve("@cmfcmf/docusaurus-search-local"),
     ],
 };
 
