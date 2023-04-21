@@ -1,6 +1,7 @@
 ---
 id: docusaurus-search
 slug: /docusaurus-search
+title: Search
 ---
 
 > [Search | Docusaurus](https://docusaurus.io/docs/search) 
@@ -13,9 +14,10 @@ There are a few options you can use to add search to your website. In this proje
 
 - First you need to create an [Algolia account](https://www.algolia.com/)
 - Then create an index in indices:
-[comment]: image 
+  ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/indices.png)
 - Get the Application ID and API Key in API Keys:
-- Put your API-ID and API-LEY Search only in you `docusaurus.config.js`:
+  ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/apikeys.png)
+- Put your API-ID and **Search-only-API-KEY** in you `docusaurus.config.js`:
 ```js
 themeConfig: `
     algolia: {
@@ -25,4 +27,3 @@ themeConfig: `
     },
 }
 ```
-
