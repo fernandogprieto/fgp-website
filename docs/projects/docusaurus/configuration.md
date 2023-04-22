@@ -46,6 +46,7 @@ module.exports = config
  You can ensure that your site reflects your branding, provides essential information to users, and presents a polished appearance.
 
 > [Sidebar | Docusaurus](https://docusaurus.io/docs/sidebar)
+
 ## sidebar.js
 In this section of the website, you'll find a configurable sidebar designed for organizing various documentation resources, such as technical articles from the blog, and recommended tools. Each item displayed in the sidebar corresponds to a Markdown file, which can be easily managed as they are all stored in the `doc` directory.
 
