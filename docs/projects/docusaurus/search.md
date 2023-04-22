@@ -43,14 +43,14 @@ APPLICATION_ID=YOUR_APP_ID
 API_KEY=YOUR_API_KEY
 ```
 
--Please ensure that you have installed [jq](https://github.com/stedolan/jq/wiki/Installation). However, I personally haven't installed it and simply used the following command: 
+- Please ensure that you have installed [jq](https://github.com/stedolan/jq/wiki/Installation). However, I personally haven't installed it and simply used the following command: 
   
 ```
 [root@fgpserver fernandogprieto.com]# jq --version
 jq-1.6
 ```
 
-- Then create a file in the project directory, `docsearch.json`. You could use a `docsearch-config` found at https://github.com/algolia/docsearch-configs to update the algolia settings for your site`
+- Then create a file in the project directory, `docsearch.json`. You could use a `docsearch-config` found at https://github.com/algolia/docsearch-configs to update the algolia settings for your site.
    
 ```json title='docsearch.json' {2-4}
 {
@@ -135,7 +135,6 @@ jq-1.6
   }
 }
 ```
-
 - Execute the Docker command to initiate the container and run the application as and admin:
 
 ```sh

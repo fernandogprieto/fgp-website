@@ -1,3 +1,4 @@
+const announcementBarContent = `<a href="/docs/docusuarus-intro" target="_blank">My Cloud Journey Project - Docusaurus Website</a>`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -23,6 +24,24 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
       image: 'img/it.png',
+      announcementBar: {
+        id: 'announcementBar',
+        content: announcementBarContent,
+      },
+      metadata: [
+        {
+          name: 'keywords',
+          content: 'My Cloud Journey',
+        },
+        {
+          name: 'keywords',
+          content: 'blog, projects, python, multi-cloud, kubernetes',
+        },
+        {
+          name: 'keywords',
+          content: 'Open source enthusiast, Cloud native, IT Advisor, Infraestructure as a code',
+        },
+      ],
       docs: {
         sidebar: {
           hideable: true,
