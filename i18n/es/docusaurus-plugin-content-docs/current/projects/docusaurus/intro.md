@@ -1,10 +1,11 @@
 ---
 id: docusaurus-intro
 slug: /docusuarus-intro
-title: Bienvenido
+title: My Cloud Journey Project - Docusaurus Website
 authors: fernandogprieto
 keywords: ['guides', 'docusaurus', 'docusaurus-guides']
 ---
+
 TESTEANDO EL SPANISH
 Welcome to my personal website, where I've leveraged the power of Docusaurus to create a comprehensive, responsive, and user-friendly platform. Here, you can explore my documentation, blog, and other content, all organized and presented with Docusaurus' robust features.
 
