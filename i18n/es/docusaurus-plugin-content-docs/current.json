@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.projects.category.My Cloud Journey Project - Docusaurus Website": {
+    "message": "My Cloud Journey Project - Docusaurus Website",
+    "description": "The label for category My Cloud Journey Project - Docusaurus Website in sidebar projects"
+  }
+}
