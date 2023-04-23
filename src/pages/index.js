@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
-
+import Translate from '@docusaurus/Translate';
 
 function HomepageHeader() {
   return (
@@ -10,7 +10,7 @@ function HomepageHeader() {
       <div className="container">
         <div className='row'>
           <div className='col col--6 justified'>
-          <h1 className="hero__title"> Welcome to my Cloud Journey</h1>
+          <h1 className="hero__title"><Translate> Welcome to my Cloud Journey</Translate></h1>
           <p>#Cloud, #Innovation, #Technology, #OpenSource</p>
           </div>
           <div className='col col--6 justified'>

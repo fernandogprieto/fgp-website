@@ -1,0 +1,54 @@
+{
+  "link.title.Learn": {
+    "message": "Aprender",
+    "description": "The title of the footer links column with title=Learn in the footer"
+  },
+  "link.title.Social": {
+    "message": "Social",
+    "description": "The title of the footer links column with title=Social in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Projects": {
+    "message": "Projects",
+    "description": "The label of footer link with label=Projects linking to projects/"
+  },
+  "link.item.label.Docs": {
+    "message": "Docs",
+    "description": "The label of footer link with label=Docs linking to docs/projects"
+  },
+  "link.item.label.Email me": {
+    "message": "Correo",
+    "description": "The label of footer link with label=Email me linking to mailto:prieto.fernandog@gmail.com"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to blog/"
+  },
+  "link.item.label.Gitlab": {
+    "message": "Gitlab",
+    "description": "The label of footer link with label=Gitlab linking to https://gitlab.com/fernandogprieto/fgp-website"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "The label of footer link with label=LinkedIn linking to https://www.linkedin.com/in/fernando-prieto-carabobo/"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/fernandogprieto"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/zAZC37Mfxp"
+  },
+  "link.item.label.Status": {
+    "message": "Estatus",
+    "description": "The label of footer link with label=Status linking to https://gitlab.com/fernandogprieto/fgp-website"
+  },
+  "copyright": {
+    "message": "Copyright © 2023 Fernando Prieto Website. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}
