@@ -1,0 +1,11 @@
+.about {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.avatar-1 {
+  border-radius: 50%;
+  border-width: 20px;
+  border-color: black;
+  border-style: solid;
+}
