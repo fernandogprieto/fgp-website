@@ -1,14 +1,13 @@
 ---
 id: docusaurus-configuration
 slug: /docusaurus-configuration
-title: Configuration file
+title: archivo de configuración
 authors: fernandogprieto
 ---
 > [docusaurus.config.js | Docusaurus](https://docusaurus.io/docs/api/docusaurus-config)
 
 ## docusaurus.config.js
-
-You can customize various aspects of your site, such as the logo, site name, author name, announcement bar at the top, navigation bar, and footer at the bottom. This configuration file allows you to tailor your website to your unique requirements and preferences, offering extensive personalization options.
+Puedes personalizar diversos elementos de tu sitio web para adaptarlos a tus necesidades y preferencias únicas, incluyendo el logotipo, nombre del sitio, nombre del autor, barra de anuncios en la parte superior, barra de navegación y pie de página en la parte inferior. El archivo de configuración te permite personalizar ampliamente tu sitio web, ofreciendo una amplia gama de opciones de personalización.
 
 ```javascript title='docusaurus.config.js'
 const config = {
@@ -43,15 +42,15 @@ const config = {
 
 module.exports = config
 ```
- You can ensure that your site reflects your branding, provides essential information to users, and presents a polished appearance.
+Puedes asegurarte de que tu sitio refleje tu marca, proporcione información esencial a los usuarios y presentar  tu marca personal.
 
 > [Sidebar | Docusaurus](https://docusaurus.io/docs/sidebar)
 
 ## sidebar.js
-In this section of the website, you'll find a configurable sidebar designed for organizing various documentation resources, such as technical articles from the blog, and recommended tools. Each item displayed in the sidebar corresponds to a Markdown file, which can be easily managed as they are all stored in the `doc` directory.
+En esta sección del sitio web, encontrarás una barra lateral configurable diseñada para organizar varios recursos de documentación, como artículos técnicos del blog y herramientas recomendadas. Cada elemento mostrado en la barra lateral corresponde a un archivo Markdown, que puede ser administrado fácilmente, ya que todos se almacenan en el directorio `doc`.
 
-## About me
-To modify this section, go to the `src/pages/about/index.js` file. The SVG images featured on the site come from [Svg Repo](https://www.svgrepo.com/), and they are organized in the `static/img/` and `static/svg/` directories for images and SVG files, respectively. I created my distinctive avatar using Lensa, an innovative tool offered by Prisma AI. Visit [Lensa](https://prisma-ai.com/lensa) to explore Lensa's capabilities and craft your own personalized avatars or improve existing images.
+## Acerca de mí
+Para modificar esta sección, dirígete al archivo `src/pages/about/index.js`. Las imágenes SVG presentadas en el sitio provienen de [Svg Repo](https://www.svgrepo.com/) y se organizan en los directorios `static/img/` y `static/svg/` para imágenes y archivos SVG, respectivamente. Creé mi distintivo avatar usando Lensa, una herramienta innovadora ofrecida por Prisma AI. Visita [Lensa](https://prisma-ai.com/lensa) para explorar sus capacidades y crear tus propios avatares personalizados o mejorar imágenes existentes.
 
 ```js
 <div className="svg_row" >
@@ -100,4 +99,4 @@ To modify this section, go to the `src/pages/about/index.js` file. The SVG image
                   }}
                 />
 ```
-## Others configs (under construction)
+## Otras configuraciones (en construcción)

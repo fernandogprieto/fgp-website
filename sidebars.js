@@ -30,7 +30,7 @@
       items: [
         'projects/docusaurus/docusaurus-configuration',
         'projects/docusaurus/docusaurus-search',
-        'projects/docusaurus/docusaurus-locale',
+        'projects/docusaurus/docusaurus-internationalization',
       ],
     },
   ],
