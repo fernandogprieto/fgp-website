@@ -10,15 +10,13 @@ function AboutpageHeader() {
       <div className="container">
         <div className='row'>
           <div className='col col--6 '>
-          <h1 className="about-title" title="About me">About me</h1>
-          <h3 className="about-title"> IT Support Specialist | IT Consultant & IT Advisor | Engineering | Customer Service | Cloud Computing Training </h3>
-           <p>I'm open source and cloud-native enthusiast. I enjoy discovering new technologies, contributing to community projects,
-              and sharing my expertise with others in order to foster innovation and cooperation in the IT sector.</p>
+          <h1 className="about-title" title="Sobre mí"></h1>
+          <h3 className="about-title"> Especialista en Soporte Técnico | Consultor y Asesor de TI | Ingeniería | Atención al Cliente | Capacitación en Computación en la Nube</h3>
+            <p> Soy un entusiasta del código abierto y las tecnologías nativas de la nube. Disfruto descubriendo nuevas tecnologías, contribuyendo a proyectos comunitarios,
+             y compartiendo mi experiencia con otros para fomentar la innovación y la cooperación en el sector de TI.</p>
 
-           <p>My expertise includes working in cloud-native environments, utilizing technologies such as Kubernetes, Terraform, and Python.
-            I am also skilled in applying microservices, infrastructure technologies, and observability tools. In addition, I am proficient
-            in Linux, Windows, and ITIL processes.</p>
-
+            <p> Mi experiencia incluye trabajar en entornos nativos de la nube, utilizando tecnologías como Kubernetes, Terraform y Python. También soy hábil en la aplicación de
+                microservicios, tecnologías de infraestructura y monitoreo de servicios. Además, tengo habilidades en Linux, Windows y procesos ITIL.</p>
 
               <div className="svg_row" >
               <a href="mailto:prieto.fernandog@gmail.com" target="_blank" rel="noopener noreferrer">
