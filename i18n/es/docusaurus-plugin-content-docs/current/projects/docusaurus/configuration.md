@@ -1,7 +1,7 @@
 ---
 id: docusaurus-configuration
 slug: /docusaurus-configuration
-title: archivo de configuración
+title: Archivo de configuración
 authors: fernandogprieto
 ---
 > [docusaurus.config.js | Docusaurus](https://docusaurus.io/docs/api/docusaurus-config)
