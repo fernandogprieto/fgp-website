@@ -1,30 +1,28 @@
 ---
 id: docusaurus-search
 slug: /docusaurus-search
-title: Search
+title: Búsqueda
 authors: fernandogprieto
 ---
 
 > [Search | Docusaurus](https://docusaurus.io/docs/search) 
-
-
 ## Algolia
-There are a few options you can use to add search to your website. In this project I choose `Run Your Own by DocSearch`.
+Hay algunas opciones que puedes usar para agregar una función de búsqueda a tu sitio web. En este proyecto, elegí `Ejecutar tu propio DocSearch`.
 
-> [Run your own | Docsearch](https://docsearch.algolia.com/docs/run-your-own)
+> [Ejecutar tu propio | Docsearch](https://docsearch.algolia.com/docs/run-your-own)
 
-### Path:
+### Pasos:
 
-- First you need to create an [Algolia account](https://www.algolia.com/)
-- Then create an index in indices:
-  
-  ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/indices.png)
+- Primero, necesitas crear una [cuenta de Algolia](https://www.algolia.com/)
+- Luego crea un índice en índices:
 
-- Get the Application ID and API Key in API Keys:
-  
-  ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/apikeys.png)
+  ![imagen](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/indices.png)
 
-- Put your API-ID and **Search-only-API-KEY** in you `docusaurus.config.js`:
+- Obtén el ID de la aplicación y la clave API en Claves API:
+
+  ![imagen](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/apikeys.png)
+
+- Coloca tu ID de aplicación y **Clave API de búsqueda** en tu `docusaurus.config.js`:
 
 ```js
 themeConfig: {
@@ -36,21 +34,22 @@ themeConfig: {
 }
 ```
 
-- Create a `.env` in your file root, you need to use your Admin API Key
+- Crea un archivo `.env` en la raíz de tu proyecto, necesitarás usar tu clave API de administrador
 
 ```
-APPLICATION_ID=YOUR_APP_ID
-API_KEY=YOUR_API_KEY
+APPLICATION_ID=TU_APP_ID
+API_KEY=TU_API_KEY
 ```
 
-- Please ensure that you have installed [jq](https://github.com/stedolan/jq/wiki/Installation). However, I personally haven't installed it and simply used the following command: 
-  
+- Asegúrate de haber instalado [jq](https://github.com/stedolan/jq/wiki/Installation). Sin embargo, personalmente no lo he instalado y simplemente usé el siguiente comando:
+
 ```
 [root@fgpserver fernandogprieto.com]# jq --version
 jq-1.6
 ```
 
-- Then create a file in the project directory, `docsearch.json`. You could use a `docsearch-config` found at https://github.com/algolia/docsearch-configs to update the algolia settings for your site.
+- Luego crea un archivo en el directorio del proyecto, `docsearch.json`. Podrías usar un `docsearch-config` encontrado en https://github.com/algolia/docsearch-configs para actualizar la configuración de Algolia para tu sitio.
+
    
 ```json title='docsearch.json' {2-4}
 {
@@ -135,7 +134,8 @@ jq-1.6
   }
 }
 ```
-- Execute the Docker command to initiate the container and run the application as and admin:
+
+- Ejecuta el comando Docker para iniciar el contenedor y ejecutar la aplicación como administrador:
 
 ```sh
 docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)" algolia/docsearch-scraper
@@ -143,7 +143,7 @@ docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)
 
 ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/docker.png)
 
-- Check your Algolia Dashboard:
+- Revisa tu panel de control de Algolia:
   
 ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/algolia.png)
 

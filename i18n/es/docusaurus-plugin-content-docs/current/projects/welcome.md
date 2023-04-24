@@ -8,5 +8,5 @@ slug: /projects
 
 ## Projectos
 - **My Cloud Journey:** Este es mi página web, donde uso Docusaurus para gestionar la documentación, diseño adaptable, establecer características como blogs, búsqueda, personalización y traducción.
-- **Cloud Resume Challenge:** (bajo construcción)
-- **Guías y Tutoriales:** (bajo construcción)
+- **Cloud Resume Challenge:** (en construcción)
+- **Guías y Tutoriales:** (en construcción)
