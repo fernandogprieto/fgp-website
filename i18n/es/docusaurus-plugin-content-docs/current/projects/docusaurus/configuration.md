@@ -49,9 +49,11 @@ Puedes asegurarte de que tu sitio refleje tu marca, proporcione información ese
 ## sidebar.js
 En esta sección del sitio web, encontrarás una barra lateral configurable diseñada para organizar varios recursos de documentación, como artículos técnicos del blog y herramientas recomendadas. Cada elemento mostrado en la barra lateral corresponde a un archivo Markdown, que puede ser administrado fácilmente, ya que todos se almacenan en el directorio `doc`.
 
-## Acerca de mí
+## Sobre mí
 Para modificar esta sección, dirígete al archivo `src/pages/about/index.js`. Las imágenes SVG presentadas en el sitio provienen de [Svg Repo](https://www.svgrepo.com/) y se organizan en los directorios `static/img/` y `static/svg/` para imágenes y archivos SVG, respectivamente. Creé mi distintivo avatar usando Lensa, una herramienta innovadora ofrecida por Prisma AI. Visita [Lensa](https://prisma-ai.com/lensa) para explorar sus capacidades y crear tus propios avatares personalizados o mejorar imágenes existentes.
 
+## Redes Sociales
+Puedes modificar este código para tus propios enlaces de redes sociales:
 ```js
 <div className="svg_row" >
               <a href="mailto:prieto.fernandog@gmail.com" target="_blank" rel="noopener noreferrer">

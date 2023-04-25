@@ -1,14 +1,14 @@
 ---
 id: docusaurus-internationalization 
 slug: /docusaurus-internationalization 
-title: Internationalization - i18n
+title: Internacionalización- i18n
 ---
 
 > [Internationalization(`18n) | Docusaurus](https://docusaurus.io/docs/i18n/introduction)
 
-## Configure your site
+## Configura tu sitio
 
-Modify the`docusaurus.config.js` file to incorporate i18n support for the Spanish language, based on your preference.
+Modifica el archivo `docusaurus.config.js` para incorporar soporte i18n para el idioma español, según tu preferencia.
 
 ```js title='docusaurus.config.js'
 module.exports = {
@@ -22,9 +22,9 @@ module.exports = {
   },
 };
 ```
-## Theme Config 
+## Configuración del tema
 
-Add a navigation bar item of the `localeDropdown` type, allowing users to choose their preferred language:
+Agrega un elemento de navegación del tipo `localeDropdown` en la barra de navegación, permitiendo a los usuarios elegir su idioma preferido:
 
 ```js title='docusaurus.config.js'
 module.exports = {
@@ -41,15 +41,15 @@ module.exports = {
 };
 ```
 
-Docusaurus, on its platform, includes an automatic translation feature that can be assessed through the following example:
+Docusaurus, en su plataforma, incluye una función de traducción automática que puede ser evaluada mediante el siguiente ejemplo:
 ```
 npm run start -- --locale es
 ```
 
-This tool provides preset translations for generic theme labels, such as "Next" and "Previous" in relation to pagination. You can explore the [default translations](https://github.com/facebook/docusaurus/tree/main/packages/docusaurus-theme-translations/locales) through the provided link.
+Esta herramienta ofrece traducciones preestablecidas para etiquetas genéricas de temas, como "Siguiente" y "Anterior" en relación con la paginación. Puedes explorar las [traducciones predefinidas](https://github.com/facebook/docusaurus/tree/main/packages/docusaurus-theme-translations/locales) a través del enlace proporcionado.
 
-## Translate
-The docusaurus `write-translation` command will statically analyze all React code files used in your site, extract calls to these APIs, and aggregate them in the code.json file
+## Traducir
+El comando `write-translation` de Docusaurus analizará estáticamente todos los archivos de código React utilizados en tu sitio, extraerá llamadas a estas API y las agregará en el archivo code.json.
 
 ```bash
 npm run write-translations -- --locale es
@@ -67,12 +67,11 @@ yourwebsite/i18n
              ├── footer.json
              └── navbar.json
 ```
+Para realizar modificaciones en el Docusaurus-theme-classic, debes enfocarte en las secciones de pie de página y barra de navegación dentro del área de mensajes.
 
-To make modifications to the Docusaurus-theme-classic, you need to focus on the footer and navbar sections within the message area.
+### Archivos Markdown
 
-### Markdown files 
-
-You can translate docs, blog and pages only whit this command`
+Puedes traducir documentos, blogs y páginas usando este comando:
 
 ```
 cp -r docs/** i18n/es/docusaurus-plugin-content-docs/current
@@ -80,7 +79,7 @@ cp -r blog/** i18n/es/docusaurus-plugin-content-blog
 cp -r src/pages/** i18n/es/docusaurus-plugin-content-pages
 ```
 
-When editing your docs, blog, and pages files in Docusaurus, it is important to only modify the title, as the same ID and slug configuration is shared across these files.
+Al editar tus archivos de documentos, blogs y páginas en Docusaurus, es importante modificar únicamente el título, ya que la misma configuración de ID y slug se comparte entre estos archivos.
 
 ```md title='docs/projects/docusaurus/internationalization.md'
 ---
