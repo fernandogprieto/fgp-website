@@ -3,6 +3,7 @@ id: docusaurus-configuration
 slug: /docusaurus-configuration
 title: Archivo de configuración
 authors: fernandogprieto
+keywords: [docusaurus-configuración, google analytics, proyecto de nube]
 ---
 > [docusaurus.config.js | Docusaurus](https://docusaurus.io/docs/api/docusaurus-config)
 
@@ -101,4 +102,58 @@ Puedes modificar este código para tus propios enlaces de redes sociales:
                   }}
                 />
 ```
-## Otras configuraciones (en construcción)
+## Otras configuraciones
+### Google Analytics
+- Primero, necesitas crear una cuenta en [Google Analytics](https://analytics.google.com).
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-1.png)
+
+- Haz clic en `Siguiente` y crea el nombre de tu propiedad.
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-2.png)
+
+- Ingresa la información de tu negocio y selecciona la categoría adecuada para tu marca personal.
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-3.png)
+
+- Acepta el Acuerdo de Términos de Servicio de Google Analytics.
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-4.png)
+
+- Elige una plataforma; en mi caso, elegí 'Web'.
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-5.png)
+
+- Configura un flujo de datos con tu dominio.
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-6.png)
+
+- Copia tu `ID DE MEDICIÓN`.
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-7.png)
+
+> [Plugin de Google Analytics | Docusaurus](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-gtag)
+
+### Plugin gtag
+- Instala este plugin en tu proyecto:
+```
+npm install --save @docusaurus/plugin-google-gtag
+```
+
+- Configura la opción de preajuste y pega el `ID DE MEDICIÓN`.
+
+```js title=docusaurus.config.js
+module.exports = {
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        gtag: {
+          trackingID: 'G-G76N5FK6BH',
+          anonymizeIP: true,
+        },
+      },
+    ],
+  ],
+};
+```
