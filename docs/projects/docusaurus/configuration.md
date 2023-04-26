@@ -102,4 +102,38 @@ Feel free to customize this code to suit your own social media links:
                   }}
                 />
 ```
-## Others configs (under construction)
+## Others configs 
+### Google Analytics
+- First, you need to create an account on [Google Analytics](https://analytics.google.com).
+- Click on `Next` and create your Property name.
+- Enter your Business information and select the appropriate category for your personal branding.
+- Accept the Google Analytics Terms of Service Agreement.
+- Choose a platform; in my case, I chose 'Web'.
+- Set up a data stream with your domain.
+- Copy your `MEASUREMENT ID`.
+
+> [Google Analytics Plugin | Docusaurus](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-gtag)
+
+### Plugin gtag
+- Install this plugin in your project:
+```
+npm install --save @docusaurus/plugin-google-gtag
+```
+
+- Configure the preset option and paste the `MEASUREMENT ID`.
+  
+```js title=docusaurus.config.js
+module.exports = {
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        gtag: {
+          trackingID: 'G-G76N5FK6BH',
+          anonymizeIP: true,
+        },
+      },
+    ],
+  ],
+};
+```
