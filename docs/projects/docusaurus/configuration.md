@@ -3,7 +3,9 @@ id: docusaurus-configuration
 slug: /docusaurus-configuration
 title: Configuration file
 authors: fernandogprieto
+keywords: [docusaurus-config, google analytics, cloud-project]
 ---
+
 > [docusaurus.config.js | Docusaurus](https://docusaurus.io/docs/api/docusaurus-config)
 
 ## docusaurus.config.js
@@ -105,12 +107,32 @@ Feel free to customize this code to suit your own social media links:
 ## Others configs 
 ### Google Analytics
 - First, you need to create an account on [Google Analytics](https://analytics.google.com).
+  
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-1.png)
+
 - Click on `Next` and create your Property name.
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-2.png)
+
 - Enter your Business information and select the appropriate category for your personal branding.
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-3.png)
+
 - Accept the Google Analytics Terms of Service Agreement.
+  
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-4.png)
+
 - Choose a platform; in my case, I chose 'Web'.
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-5.png)
+
 - Set up a data stream with your domain.
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-6.png)
+
 - Copy your `MEASUREMENT ID`.
+
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-7.png)
 
 > [Google Analytics Plugin | Docusaurus](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-gtag)
 
