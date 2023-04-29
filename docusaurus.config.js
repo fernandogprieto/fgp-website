@@ -182,6 +182,9 @@ const config = {
             trackingID: 'G-KEB70ZG5C5',
             anonymizeIP: true,
           },
+          googleTagManager: {
+            containerId: 'GT-MJM9PBM',
+          },
         }),
       ],
     ],
