@@ -197,6 +197,13 @@ const config = {
         },
       ],
     ],
+    scripts: [
+      {
+        src: '/src/vercel-analytics.js',
+        async: true,
+        defer: true,
+      },
+    ],
 };
 
 module.exports = config
