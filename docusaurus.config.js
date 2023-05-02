@@ -23,7 +23,7 @@ const config = {
 
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
-      image: 'img/it.png',
+      image: 'img/socialmediacard.png',
       announcementBar: {
         id: 'announcementBar',
         content: announcementBarContent,
