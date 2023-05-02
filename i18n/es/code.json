@@ -1,6 +1,11 @@
 {
-  "Welcome to my Cloud Journey": {
-    "message": "Bienvenido a mi preparación hacia la nube"
+  "homepage.welcome": {
+    "message": "Bienvenido a mi proyecto Cloud Journey",
+    "description": "The title of website"
+  },
+  "homepage.tags": {
+    "message": "#Nube, #Innovación, #Tecnología, #CódigoAbierto",
+    "description": "A list of key topics displayed on the homepage as a slogan, highlighting the main themes of the website"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
