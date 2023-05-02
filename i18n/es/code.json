@@ -7,7 +7,7 @@
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.NotFound.title": {
-    "message": "Página No Encontrada",
+    "message": "Oops! Página No Encontrada",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
