@@ -10,8 +10,12 @@ function HomepageHeader() {
       <div className="container">
         <div className='row'>
           <div className='col col--6 justified'>
-          <h1 className="hero__title"><Translate> Welcome to my Cloud Journey</Translate></h1>
-          <p>#Cloud, #Innovation, #Technology, #OpenSource</p>
+          <h1 className="hero__title">
+            <Translate id="homepage.welcome"> Welcome to my Cloud Journey</Translate>
+          </h1>
+          <p>
+            <Translate id="homepage.tags">#Cloud, #Innovation, #Technology, #OpenSource</Translate>
+          </p>
           </div>
           <div className='col col--6 justified'>
               <img src="./svg/cloud.svg" />

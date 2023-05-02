@@ -2,6 +2,7 @@
 id: docusaurus-internationalization 
 slug: /docusaurus-internationalization 
 title: Internacionalización- i18n
+authors: fernandogprieto
 ---
 
 > [Internationalization(`18n) | Docusaurus](https://docusaurus.io/docs/i18n/introduction)
@@ -69,6 +70,54 @@ yourwebsite/i18n
 ```
 Para realizar modificaciones en el Docusaurus-theme-classic, debes enfocarte en las secciones de pie de página y barra de navegación dentro del área de mensajes.
 
+### Configurar tu ID
+
+- El componente Translate te permite crear sitios web multilingües de Docusaurus, permitiendo la traducción de cadenas de texto en tus componentes React.
+
+```
+import Translate from '@docusaurus/Translate';
+```
+
+- Envuelve el texto que deseas traducir con el componente Translate:
+
+```js title='src/pages/index.js'
+function HomepageHeader() {
+  return (
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className="container">
+        <div className='row'>
+          <div className='col col--6 justified'>
+          <h1 className="hero__title">
+            <Translate id="homepage.welcome"> Welcome to my Cloud Journey</Translate>
+          </h1>
+          <p>
+            <Translate id="homepage.tags">#Cloud, #Innovation, #Technology, #OpenSource</Translate>
+          </p>
+          </div>
+          <div className='col col--6 justified'>
+              <img src="./svg/cloud.svg" />
+            </div>
+          </div>
+        </div>
+    </header>
+  );
+}
+```
+### code.json
+- Añade las cadenas de traducción a los respectivos ID
+
+```json title='/i18n/es/code.json'
+{
+  "homepage.welcome": {
+    "message": "Bienvenido a mi proyecto Cloud Journey",
+    "description": "The title of website"
+  },
+  "homepage.tags": {
+    "message": "#Nube, #Innovación, #Tecnología, #CódigoAbierto",
+    "description": "A list of key topics displayed on the homepage as a slogan, highlighting the main themes of the website"
+  },
+}
+```
 ### Archivos Markdown
 
 Puedes traducir documentos, blogs y páginas usando este comando:

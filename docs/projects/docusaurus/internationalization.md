@@ -2,6 +2,7 @@
 id: docusaurus-internationalization 
 slug: /docusaurus-internationalization 
 title: Internationalization - i18n
+authors: fernandogprieto
 ---
 
 > [Internationalization(`18n) | Docusaurus](https://docusaurus.io/docs/i18n/introduction)
@@ -56,7 +57,7 @@ npm run write-translations -- --locale es
 ```
 
 ```
-yourwebsite/i18n
+website/i18n
      └── es
          ├── code.json                        
          ├── docusaurus-plugin-content-blog
@@ -70,11 +71,59 @@ yourwebsite/i18n
 
 To make modifications to the Docusaurus-theme-classic, you need to focus on the footer and navbar sections within the message area.
 
+### Config your ID 
+
+- The Translate component allows you to create multilingual Docusaurus websites, enabling translation of strings in your React components.
+
+```
+import Translate from '@docusaurus/Translate';
+```
+
+- Wrap the text you want to translate with the Translate component: 
+  
+```js title='src/pages/index.js'
+function HomepageHeader() {
+  return (
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className="container">
+        <div className='row'>
+          <div className='col col--6 justified'>
+          <h1 className="hero__title">
+            <Translate id="homepage.welcome"> Welcome to my Cloud Journey</Translate>
+          </h1>
+          <p>
+            <Translate id="homepage.tags">#Cloud, #Innovation, #Technology, #OpenSource</Translate>
+          </p>
+          </div>
+          <div className='col col--6 justified'>
+              <img src="./svg/cloud.svg" />
+            </div>
+          </div>
+        </div>
+    </header>
+  );
+}
+```
+### code.json
+- Add the translation strings to the respective ID
+  
+```json title='/i18n/es/code.json'
+{
+  "homepage.welcome": {
+    "message": "Bienvenido a mi proyecto Cloud Journey",
+    "description": "The title of website"
+  },
+  "homepage.tags": {
+    "message": "#Nube, #Innovación, #Tecnología, #CódigoAbierto",
+    "description": "A list of key topics displayed on the homepage as a slogan, highlighting the main themes of the website"
+  },
+}
+```
 ### Markdown files 
 
 You can translate docs, blog and pages only whit this command`
 
-```
+```bash
 cp -r docs/** i18n/es/docusaurus-plugin-content-docs/current
 cp -r blog/** i18n/es/docusaurus-plugin-content-blog
 cp -r src/pages/** i18n/es/docusaurus-plugin-content-pages
