@@ -74,14 +74,14 @@ sitio web
 
 ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/swizzling.png)
 
-:::tip
+:::tip Consejo
 Envolver un tema es una excelente manera de agregar componentes adicionales alrededor de uno existente sin expulsarlo.
 :::
 
-:::caution
+:::caution Precaución
 El swizzling en Docusaurus permite personalizaciones más profundas del sitio mediante la expulsión o el envoltorio de los componentes del tema. Sin embargo, expulsar componentes inseguros puede complicar las actualizaciones y el mantenimiento.
 :::
 
-:::info
+:::info Información
 No tengas demasiado miedo de swizzlear componentes inseguros: solo ten en cuenta que podrían ocurrir **cambios que rompen la compatibilidad** y que podrías necesitar actualizar tus personalizaciones manualmente en actualizaciones menores de la versión.
 :::

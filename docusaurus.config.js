@@ -173,7 +173,7 @@ const config = {
           blog: {
             showReadingTime: true,
             editUrl:
-              'https://gitlab.com/fernandogprieto/fgp-website/blog',
+              'https://gitlab.com/fernandogprieto/fgp-website/-/tree/main/blog',
           },
           theme: {
             customCss: require.resolve('./src/css/custom.css'),
