@@ -99,10 +99,10 @@ const config = {
           {
             title: 'Learn',
             items: [
-              {
+              /*{
                 label:'Projects',
                 to:'projects/'
-              },
+              },*/
               {
                 label: 'Docs',
                 to: 'docs/projects',
