@@ -1,223 +1,179 @@
-export const projects: Project[] = [
-  {
-    title: '愧怍的小站',
-    description: '基于Docusaurus v2 静态网站生成器实现个人博客',
-    preview: '/img/project/blog.png',
-    website: 'https://kuizuo.cn',
-    source: 'https://github.com/kuizuo/blog',
-    tags: ['opensource', 'design', 'favorite'],
-    type: 'web',
-  },
-  {
-    title: 'kz-admin',
-    description:
-      '基于NestJs + TypeScript + TypeORM + Redis + MySql + Vben Admin编写的一款前后端分离的权限管理系统',
-    preview: '/img/project/kz-admin.png',
-    website: 'https://admin.kuizuo.cn',
-    source: 'https://github.com/kuizuo/kz-admin',
-    tags: ['opensource', 'favorite', 'product', 'large'],
-    type: 'web',
-  },
-  {
-    title: 'KZ-API',
-    description: '🔗 基于Nuxt3 + Vite3 + Vue3 + UnoCSS搭建的API接口服务网站',
-    preview: '/img/project/kz-api.png',
-    website: 'https://api.kuizuo.cn',
-    source: 'https://github.com/kuizuo/api-service',
-    tags: ['opensource', 'favorite', 'product'],
-    type: 'web',
-  },
-  {
-    title: 'Protocol',
-    description: '🧪 一个用于快速复现请求协议的 Web 开发模板',
-    preview: '/img/project/protocol.png',
-    website: 'https://protocol.kuizuo.cn',
-    source: 'https://github.com/kuizuo/protocol',
-    tags: ['opensource', 'favorite'],
-    type: 'web',
-  },
-  {
-    title: 'Hoppx',
-    description: '👽 仿 Hoppscotch 风格的网站模板',
-    preview: '/img/project/hoppx.png',
-    website: 'https://hoppx.vercel.app',
-    source: 'https://github.com/kuizuo/hoppx',
-    tags: ['opensource'],
-    type: 'web',
-  },
-  {
-    title: 'Link Maker',
-    description: '🍋 一个用于将链接转换为卡片样式的预览网站',
-    preview: '/img/project/link-maker.png',
-    website: 'https://link-maker.deno.dev',
-    source: 'https://github.com/kuizuo/link-maker',
-    tags: ['opensource'],
-    type: 'web',
-  },
-  {
-    title: 'Image Hosting',
-    description: '🖼️ 使用 Supabase 搭建一个简易图床',
-    preview: '/img/project/image-hosting.png',
-    website: 'https://image.kuizuo.cn',
-    source: 'https://github.com/kuizuo/image-hosting',
-    tags: ['opensource'],
-    type: 'web',
-  },
-  {
-    title: '前端示例代码库',
-    description:
-      '📦 整理前端样式和功能的实现代码，可以用来寻找灵感或直接使用示例中的代码',
-    preview: '/img/project/example-website.png',
-    website: 'https://example.kuizuo.cn',
-    source: 'https://github.com/kuizuo/example',
-    tags: ['opensource', 'design'],
-    type: 'web',
-  },
-  {
-    title: 'Vitesse Nuxt3 Strapi',
-    description: '一个 Vitesse Nuxt3 Strapi 的模板，灵感来源 Vitesse',
-    preview: '/img/project/vitesse-nuxt3-strapi.png',
-    website: 'https://vitesse-nuxt3-strapi.vercel.app',
-    source: 'https://github.com/kuizuo/vitesse-nuxt3-strapi',
-    tags: ['opensource'],
-    type: 'web',
-  },
-  {
-    title: 'JS代码混淆与还原',
-    description: '基于Babel的AST操作对JavaScript代码混淆与还原的网站',
-    preview: '/img/project/js-de-obfuscator.png',
-    website: 'https://deobfuscator.vercel.app',
-    source: 'https://github.com/kuizuo/js-de-obfuscator',
-    tags: ['opensource'],
-    type: 'web',
-  },
-  {
-    title: 'VScode-extension',
-    description: 'vscode 插件的样品',
-    preview: '/img/project/vscode-extension.png',
-    website:
-      'https://marketplace.visualstudio.com/items?itemName=kuizuo.vscode-extension-sample',
-    source: 'https://github.com/kuizuo/vscode-extension',
-    tags: ['opensource'],
-    type: 'web',
-  },
-  {
-    title: 'link-admin',
-    description: '基于 kz-admin 编写的一次性充值链接销售系统',
-    preview: '/img/project/link-admin.png',
-    website: 'http://link.kuizuo.cn',
-    tags: ['product', 'large'],
-    type: 'other',
-  },
-  {
-    title: 'ocr-admin',
-    description: '基于 ddddocr 与 kz-admin 搭建的图像识别后台系统',
-    preview: '/img/project/ocr-admin.png',
-    website: 'http://ocr.kuizuo.cn',
-    tags: ['product', 'large'],
-    type: 'other',
-  },
-  {
-    title: '@kuizuo/http',
-    description: '基于 Axios 封装的 HTTP 类库',
-    website: 'https://www.npmjs.com/package/@kuizuo/http',
-    tags: ['opensource', 'personal'],
-    type: 'personal',
-  },
-  {
-    title: '@kuizuo/utils',
-    description: '整理JavaScript / TypeScript的相关工具函数',
-    website: 'https://www.npmjs.com/package/@kuizuo/utils',
-    tags: ['opensource', 'personal'],
-    type: 'personal',
-  },
-  {
-    title: '@kuizuo/eslint-config',
-    description: 'WebSocket远程调用浏览器函数',
-    website: 'https://github.com/kuizuo/eslint-config',
-    tags: ['opensource', 'personal'],
-    type: 'personal',
-  },
-  {
-    title: 'browser-rpc',
-    description: 'WebSocket远程调用浏览器函数',
-    website: 'https://github.com/kuizuo/rpc-browser',
-    tags: ['opensource'],
-    type: 'personal',
-  },
-  {
-    title: 'rust-wasm-md5',
-    description: '🦀 Rust + WebAssembly 实现的 MD5 加密',
-    website: 'https://github.com/kuizuo/rust-wasm-md5',
-    tags: ['opensource'],
-    type: 'personal',
-  },
-]
 
-export type Tag = {
-  label: string
-  description: string
-  color: string
-}
+/* eslint-disable global-require */
+
+import {translate} from '@docusaurus/Translate';
+import {sortBy} from '@site/src/utils/jsUtils';
+
+const Users: User[] = [
+  {
+    title: 'AgileTs',
+    description: 'Global State and Logic Framework for reactive Applications',
+    preview: require('@site/static/img/projects/docusaurus/agilets.png'),
+    website: 'https://agile-ts.org/',
+    source: 'https://github.com/agile-ts/documentation',
+    tags: ['opensource', 'design', 'favorite'],
+  },
+  {
+    title: 'Aide Jeune',
+    description:
+      'French Discord server that helps young people who have been bullied or feel bad about themselves',
+    preview: require('@site/static/img/projects/docusaurus/aide_jeune.png'),
+    website: 'https://aidejeune.fr',
+    source: null,
+    tags: [],
+  },
+  {
+    title: 'TSEI.JP',
+    description: 'TSEI.JP personal website, articles and docs',
+    preview: null,
+    website: 'https://tsei.jp/',
+    source: null,
+    tags: ['personal'],
+  },
+  {
+    title: 'Brobot',
+    description: 'Testable state-based GUI automation.',
+    preview: null,
+    website: 'https://jspinak.github.io/brobot/',
+    source: 'https://github.com/jspinak/brobot/tree/main/docs',
+    tags: ['opensource'],
+  },
+];
+
+export type User = {
+  title: string;
+  description: string;
+  preview: string | null; // null = use our serverless screenshot service
+  website: string;
+  source: string | null;
+  tags: TagType[];
+};
 
 export type TagType =
   | 'favorite'
   | 'opensource'
   | 'product'
   | 'design'
+  | 'i18n'
+  | 'versioning'
   | 'large'
+  | 'meta'
   | 'personal'
+  | 'rtl';
 
-export type ProjectType = 'personal' | 'web' | 'app' | 'toy' | 'other'
+export type Tag = {
+  label: string;
+  description: string;
+  color: string;
+};
 
-export type Project = {
-  title: string
-  description: string
-  preview?: any
-  website: string
-  source?: string | null
-  tags: TagType[]
-  type: ProjectType
-}
-
-export const Tags: Record<TagType, Tag> = {
+export const Tags: {[type in TagType]: Tag} = {
   favorite: {
-    label: '喜爱',
-    description: '我最喜欢的网站，一定要去看看!',
+    label: translate({message: 'Favorite'}),
+    description: translate({
+      message:
+        'Our favorite Docusaurus sites that you must absolutely check out!',
+      id: 'showcase.tag.favorite.description',
+    }),
     color: '#e9669e',
   },
+
   opensource: {
-    label: '开源',
-    description: '开源项目可以提供灵感!',
+    label: translate({message: 'Open-Source'}),
+    description: translate({
+      message: 'Open-Source Docusaurus sites can be useful for inspiration!',
+      id: 'showcase.tag.opensource.description',
+    }),
     color: '#39ca30',
   },
+
   product: {
-    label: '产品',
-    description: '与产品相关的项目!',
+    label: translate({message: 'Product'}),
+    description: translate({
+      message: 'Docusaurus sites associated to a commercial product!',
+      id: 'showcase.tag.product.description',
+    }),
     color: '#dfd545',
   },
+
   design: {
-    label: '设计',
-    description: '设计漂亮的网站!',
+    label: translate({message: 'Design'}),
+    description: translate({
+      message:
+        'Beautiful Docusaurus sites, polished and standing out from the initial template!',
+      id: 'showcase.tag.design.description',
+    }),
     color: '#a44fb7',
   },
+
+  i18n: {
+    label: translate({message: 'I18n'}),
+    description: translate({
+      message:
+        'Translated Docusaurus sites using the internationalization support with more than 1 locale.',
+      id: 'showcase.tag.i18n.description',
+    }),
+    color: '#127f82',
+  },
+
+  versioning: {
+    label: translate({message: 'Versioning'}),
+    description: translate({
+      message:
+        'Docusaurus sites using the versioning feature of the docs plugin to manage multiple versions.',
+      id: 'showcase.tag.versioning.description',
+    }),
+    color: '#fe6829',
+  },
+
   large: {
-    label: '大型',
-    description: '大型项目，原多于平均数的页面',
+    label: translate({message: 'Large'}),
+    description: translate({
+      message:
+        'Very large Docusaurus sites, including many more pages than the average!',
+      id: 'showcase.tag.large.description',
+    }),
     color: '#8c2f00',
   },
-  personal: {
-    label: '个人',
-    description: '个人项目',
-    color: '#12affa',
+
+  meta: {
+    label: translate({message: 'Meta'}),
+    description: translate({
+      message: 'Docusaurus sites of Meta (formerly Facebook) projects',
+      id: 'showcase.tag.meta.description',
+    }),
+    color: '#4267b2', // Facebook blue
   },
+
+  personal: {
+    label: translate({message: 'Personal'}),
+    description: translate({
+      message:
+        'Personal websites, blogs and digital gardens built with Docusaurus',
+      id: 'showcase.tag.personal.description',
+    }),
+    color: '#14cfc3',
+  },
+
+  rtl: {
+    label: translate({message: 'RTL Direction'}),
+    description: translate({
+      message:
+        'Docusaurus sites using the right-to-left reading direction support.',
+      id: 'showcase.tag.rtl.description',
+    }),
+    color: '#ffcfc3',
+  },
+};
+
+export const TagList = Object.keys(Tags) as TagType[];
+function sortUsers() {
+  let result = Users;
+  // Sort by site name
+  result = sortBy(result, (user) => user.title.toLowerCase());
+  // Sort by favorite tag, favorites first
+  result = sortBy(result, (user) => !user.tags.includes('favorite'));
+  return result;
 }
 
-export const TagList = Object.keys(Tags) as TagType[]
-
-export const groupByProjects = projects.reduce((group, project) => {
-  const { type } = project
-  group[type] = group[type] ?? []
-  group[type].push(project)
-  return group
-}, {} as Record<ProjectType, Project[]>)
+export const sortedUsers = sortUsers();
