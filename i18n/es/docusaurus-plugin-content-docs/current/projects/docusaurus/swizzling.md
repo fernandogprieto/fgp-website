@@ -72,7 +72,7 @@ sitio web
 ```
 - Edita tu nuevo tema.
 
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/swizzling.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/swizzling.png)
 
 :::tip Consejo
 Envolver un tema es una excelente manera de agregar componentes adicionales alrededor de uno existente sin expulsarlo.

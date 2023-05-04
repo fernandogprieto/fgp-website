@@ -71,7 +71,7 @@ website
 ```
 - Edit your new theme.
 
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/swizzling.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/swizzling.png)
 
 :::tip
 Wrapping a theme is a great way to add extra components around existing one without ejecting it.

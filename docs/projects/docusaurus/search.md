@@ -18,11 +18,11 @@ There are a few options you can use to add search to your website. In this proje
 - First you need to create an [Algolia account](https://www.algolia.com/)
 - Then create an index in indices:
   
-  ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/indices.png)
+  ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/indices.png)
 
 - Get the Application ID and API Key in API Keys:
   
-  ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/apikeys.png)
+  ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/apikeys.png)
 
 - Put your API-ID and **Search-only-API-KEY** in you `docusaurus.config.js`:
 
@@ -141,11 +141,11 @@ jq-1.6
 docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)" algolia/docsearch-scraper
 ```
 
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docker.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/docker.png)
 
 - Check your Algolia Dashboard:
   
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/algolia.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/algolia.png)
 
 ### Gitlab CI/CD
 

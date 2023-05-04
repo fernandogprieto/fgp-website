@@ -3,7 +3,6 @@
   "extends": "@tsconfig/docusaurus/tsconfig.json",
   "compilerOptions": {
     "lib": ["DOM", "ESNext"],
-    "jsx": "react",
     "baseUrl": ".",
     "resolveJsonModule": true,
 
@@ -18,7 +17,7 @@
     "noUncheckedIndexedAccess": true,
     "strict": true,
     "alwaysStrict": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "noImplicitThis": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
@@ -38,8 +37,5 @@
     "skipLibCheck": false,
     "types": ["jest"]
   },
-  "exclude": [
-    "node_modules",
-    "packages/create-docusaurus/templates/**"
-  ],
+  "exclude": ["src/sw.js"]
 }

@@ -16,11 +16,11 @@ Hay algunas opciones que puedes usar para agregar una función de búsqueda a tu
 - Primero, necesitas crear una [cuenta de Algolia](https://www.algolia.com/)
 - Luego crea un índice en índices:
 
-  ![imagen](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/indices.png)
+  ![imagen](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/indices.png)
 
 - Obtén el ID de la aplicación y la clave API en Claves API:
 
-  ![imagen](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/apikeys.png)
+  ![imagen](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/apikeys.png)
 
 - Coloca tu ID de aplicación y **Clave API de búsqueda** en tu `docusaurus.config.js`:
 
@@ -141,11 +141,11 @@ jq-1.6
 docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.json | jq -r tostring)" algolia/docsearch-scraper
 ```
 
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docker.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/docker.png)
 
 - Revisa tu panel de control de Algolia:
   
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/algolia.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/algolia.png)
 
 ### Gitlab CI/CD
 

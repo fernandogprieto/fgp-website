@@ -108,31 +108,31 @@ Feel free to customize this code to suit your own social media links:
 ### Google Analytics
 - First, you need to create an account on [Google Analytics](https://analytics.google.com).
   
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-1.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/ga-1.png)
 
 - Click on `Next` and create your Property name.
 
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-2.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/ga-2.png)
 
 - Enter your Business information and select the appropriate category for your personal branding.
 
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-3.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/ga-3.png)
 
 - Accept the Google Analytics Terms of Service Agreement.
   
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-4.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/ga-4.png)
 
 - Choose a platform; in my case, I chose 'Web'.
 
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-5.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/ga-5.png)
 
 - Set up a data stream with your domain.
 
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-6.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/ga-6.png)
 
 - Copy your `MEASUREMENT ID`.
 
-![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/ga-7.png)
+![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/ga-7.png)
 
 > [Google Analytics Plugin | Docusaurus](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-gtag)
 
