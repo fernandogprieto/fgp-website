@@ -9,7 +9,7 @@ function AboutpageHeader() {
     <header className={clsx('about', styles.about)}>
       <div className="container">
         <div className='row'>
-          <div className='col col--6 '>
+          <div className='col col--6 justified'>
           <h1 className="about-title" title="Sobre mí"></h1>
           <h3 className="about-title"> Especialista en Soporte Técnico | Consultor y Asesor de TI | Ingeniería | Atención al Cliente | Capacitación en Computación en la Nube</h3>
             <p> Soy un entusiasta del código abierto y las tecnologías nativas de la nube. Disfruto descubriendo nuevas tecnologías, contribuyendo a proyectos comunitarios,
