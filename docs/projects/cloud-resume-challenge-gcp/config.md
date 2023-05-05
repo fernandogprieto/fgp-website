@@ -5,3 +5,4 @@ slug: /crc-gcp-week1
 
 # Week 1
 
+Welcome

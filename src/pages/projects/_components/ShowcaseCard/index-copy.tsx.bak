@@ -1,4 +1,4 @@
-import React, { useRef }  from 'react';
+import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
@@ -15,8 +15,6 @@ import {sortBy} from '@site/src/utils/jsUtils';
 import Heading from '@theme/Heading';
 import Tooltip from '../ShowcaseTooltip';
 import styles from './styles.module.css';
-import { useSpring, animated } from '@react-spring/web';
-import { useGesture } from 'react-use-gesture';
 
 const TagComp = React.forwardRef<HTMLLIElement, Tag>(
   ({label, color, description}, ref) => (
@@ -53,31 +51,9 @@ return (
 );
 }
 
-function ShowcaseCard({ project }: { project: Project }) {
-  const domTarget = useRef(null);
-  const [{ scale }, api] = useSpring(() => ({
-    scale: 1,
-    config: { mass: 5, tension: 500, friction: 40 },
-  }));
-
-  useGesture(
-    {
-      onHover: ({ hovering }) =>
-        hovering ? api({ scale: 1.05 }) : api({ scale: 1 }),
-    },
-    { domTarget, eventOptions: { passive: false } }
-  );
-
+function ShowcaseCard({project}: {project: Project}) {
   return (
-    <animated.li
-      ref={domTarget}
-      style={{
-        transform: 'perspective(100px)',
-        scale,
-      }}
-      key={project.title}
-      className="card shadow--md"
-    >
+    <li key={project.title} className="card shadow--md">
       {project.preview && (
         <div className={clsx('card__image', styles.showcaseCardImage)}>
           <Image
@@ -103,8 +79,7 @@ function ShowcaseCard({ project }: { project: Project }) {
               className={clsx(
                 'button button--secondary button--sm',
                 styles.showcaseCardSrcBtn,
-              )}
-            >
+              )}>
               <Translate id="showcase.card.sourceLink">source</Translate>
             </Link>
           )}
@@ -114,8 +89,7 @@ function ShowcaseCard({ project }: { project: Project }) {
               className={clsx(
                 'button button--secondary button--sm',
                 styles.showcaseCardSrcBtn,
-              )}
-            >
+              )}>
               <Translate id="showcase.card.docsLink"> docs</Translate>
             </Link>
           )}
@@ -125,7 +99,7 @@ function ShowcaseCard({ project }: { project: Project }) {
       <ul className={clsx('card__footer', styles.cardFooter)}>
         <ShowcaseCardTag tags={project.tags} />
       </ul>
-    </animated.li>
+    </li>
   );
 }
 

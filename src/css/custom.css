@@ -40,7 +40,6 @@ h5 {
 }
 
 .hero__title {
-  margin-top: 290px; /* Adjust the value as needed */
   text-overflow: ellipsis;
 }
 

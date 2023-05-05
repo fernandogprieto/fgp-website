@@ -1,13 +1,12 @@
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import { sortedUsers } from '@site/src/data/users';
-import ShowcaseCard from './_components/ShowcaseCard';
+import { groupByProjects } from '@site/src/data/projects';
+import ShowcaseCard from './_components/ShowcaseCard/index';
 import Link from '@docusaurus/Link';
 import Translate, { translate } from '@docusaurus/Translate';
 
 import styles from './styles.module.css';
-
 
 const TITLE = translate({
   id: 'theme.project.title',
@@ -19,6 +18,7 @@ const DESCRIPTION = translate({
 })
 
 const SUBMIT_URL = 'https://gitlab.com/fernandogprieto/';
+
 
 function ShowcaseHeader() {
   return (
@@ -32,40 +32,27 @@ function ShowcaseHeader() {
   );
 }
 
-const favoriteUsers = sortedUsers.filter((user) =>
-  user.tags.includes('favorite'),
-);
-const otherUsers = sortedUsers.filter(
-  (user) => !user.tags.includes('favorite'),
-);
-
 function ShowcaseCards() {
   return (
     <section className="margin-top--lg margin-bottom--xl">
-      <div className={styles.showcaseFavorite}>
-        <div className="container">
-          <div
-            className={clsx(
-              'margin-bottom--md',
-              styles.showcaseFavoriteHeader,
-            )}>
-            <h2>Our favorites</h2>
+      {Object.entries(groupByProjects).map(([projectType, projects]) => (
+        <div key={projectType} className={styles.showcaseGroup}>
+          <div className="container">
+            <div
+              className={clsx(
+                'margin-bottom--md',
+                styles.showcaseGroupHeader,
+              )}>
+              <h2>{projectType}</h2>
+            </div>
+            <ul className={clsx('container', 'clean-list', styles.showcaseList)}>
+              {projects.map((project) => (
+                <ShowcaseCard key={project.title} project={project} />
+              ))}
+            </ul>
           </div>
-          <ul className={clsx('container', 'clean-list', styles.showcaseList)}>
-            {favoriteUsers.map((user) => (
-              <ShowcaseCard key={user.title} user={user} />
-            ))}
-          </ul>
         </div>
-      </div>
-      <div className="container margin-top--lg">
-        <h2 className={styles.showcaseHeader}>All sites</h2>
-        <ul className={clsx('clean-list', styles.showcaseList)}>
-          {otherUsers.map((user) => (
-            <ShowcaseCard key={user.title} user={user} />
-          ))}
-        </ul>
-      </div>
+      ))}
     </section>
   );
 }

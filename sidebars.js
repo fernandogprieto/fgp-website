@@ -34,6 +34,17 @@
         'projects/docusaurus/docusaurus-swizzling',
       ],
     },
+    {
+      label: 'Cloud Resume Challenge - GCP',
+      type: 'category',
+      link: {
+        type: 'doc',
+        id: 'projects/cloud-resume-challenge-gcp/crc-gcp-intro'
+      },
+      items: [
+        'projects/cloud-resume-challenge-gcp/crc-gcp-week1',
+      ],
+    }
   ],
 }
 

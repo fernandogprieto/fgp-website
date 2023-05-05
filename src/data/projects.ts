@@ -2,64 +2,69 @@
 /* eslint-disable global-require */
 
 import {translate} from '@docusaurus/Translate';
-import {sortBy} from '@site/src/utils/jsUtils';
+import _ from 'lodash';
 
-const Users: User[] = [
+const Projects: Project[] = [
   {
-    title: 'AgileTs',
-    description: 'Global State and Logic Framework for reactive Applications',
-    preview: require('@site/static/img/projects/docusaurus/agilets.png'),
-    website: 'https://agile-ts.org/',
-    source: 'https://github.com/agile-ts/documentation',
-    tags: ['opensource', 'design', 'favorite'],
+    title: 'My Cloud Journey',
+    description:' 🖥️ Personal website that highlights my experiences, expertise, blog and tutorials in the cloud computing domains.',
+    preview: require('@site/static/img/projects/docusaurus/fernandogprieto.png'),
+    website: 'https://www.fernandogprieto.com/',
+    source: 'https://gitlab.com/fernandogprieto/fgp-website',
+    docs: 'https://www.fernandogprieto.com/docs/docusuarus-intro',
+    tags: ['opensource', 'favorite', 'personal', 'i18n'],
+    type: 'Personal',
   },
   {
-    title: 'Aide Jeune',
+    title: 'Cloud Resume Challenge',
     description:
-      'French Discord server that helps young people who have been bullied or feel bad about themselves',
-    preview: require('@site/static/img/projects/docusaurus/aide_jeune.png'),
-    website: 'https://aidejeune.fr',
-    source: null,
-    tags: [],
+    ' 📚 Build and deploy a personal resume website using Google Cloud Platform services, showcasing cloud technology expertise and hands-on experience.',
+    preview: require('@site/static/img/projects/docusaurus/crc-gcp.png'),
+    website: 'https://www.fernandogprieto.dev',
+    source: 'https://gitlab.com/fernandogprieto/cloud-resume-challenge-frontend',
+    docs: 'https://www.fernandogprieto.com/docs/crc-gcp-intro',
+    tags: ['opensource', 'favorite'],
+    type: 'Personal',
   },
-  {
+  /*{
     title: 'TSEI.JP',
     description: 'TSEI.JP personal website, articles and docs',
     preview: null,
     website: 'https://tsei.jp/',
     source: null,
+    docs: null,
     tags: ['personal'],
-  },
+    type: 'Collaboration',
+  },*/
   {
-    title: 'Brobot',
-    description: 'Testable state-based GUI automation.',
-    preview: null,
-    website: 'https://jspinak.github.io/brobot/',
-    source: 'https://github.com/jspinak/brobot/tree/main/docs',
+    title: 'Dotfiles',
+    description: 'This collection features my meticulously assembled personal dotfiles, tailored to optimize my development environment for peak efficiency and seamless workflow..',
+    website: 'https://gitlab.com/fernandogprieto/dotfiles',
     tags: ['opensource'],
+    type: 'Other',
   },
 ];
 
-export type User = {
+export type Project = {
   title: string;
   description: string;
-  preview: string | null; // null = use our serverless screenshot service
+  preview?: string | null;
   website: string;
-  source: string | null;
+  source?: string | null;
+  docs?: string | null;
   tags: TagType[];
+  type: ProjectType;
 };
+
+export type ProjectType = 'Personal' | 'Collaboration' | 'Other';
 
 export type TagType =
   | 'favorite'
   | 'opensource'
   | 'product'
-  | 'design'
   | 'i18n'
-  | 'versioning'
   | 'large'
-  | 'meta'
-  | 'personal'
-  | 'rtl';
+  | 'personal';
 
 export type Tag = {
   label: string;
@@ -72,7 +77,7 @@ export const Tags: {[type in TagType]: Tag} = {
     label: translate({message: 'Favorite'}),
     description: translate({
       message:
-        'Our favorite Docusaurus sites that you must absolutely check out!',
+        'favorite sites that you must absolutely check out!',
       id: 'showcase.tag.favorite.description',
     }),
     color: '#e9669e',
@@ -81,7 +86,7 @@ export const Tags: {[type in TagType]: Tag} = {
   opensource: {
     label: translate({message: 'Open-Source'}),
     description: translate({
-      message: 'Open-Source Docusaurus sites can be useful for inspiration!',
+      message: 'Open-Source can be useful for inspiration!',
       id: 'showcase.tag.opensource.description',
     }),
     color: '#39ca30',
@@ -96,84 +101,36 @@ export const Tags: {[type in TagType]: Tag} = {
     color: '#dfd545',
   },
 
-  design: {
-    label: translate({message: 'Design'}),
-    description: translate({
-      message:
-        'Beautiful Docusaurus sites, polished and standing out from the initial template!',
-      id: 'showcase.tag.design.description',
-    }),
-    color: '#a44fb7',
-  },
-
   i18n: {
     label: translate({message: 'I18n'}),
     description: translate({
       message:
-        'Translated Docusaurus sites using the internationalization support with more than 1 locale.',
+        'Translated  sites using the i18n support .',
       id: 'showcase.tag.i18n.description',
     }),
     color: '#127f82',
-  },
-
-  versioning: {
-    label: translate({message: 'Versioning'}),
-    description: translate({
-      message:
-        'Docusaurus sites using the versioning feature of the docs plugin to manage multiple versions.',
-      id: 'showcase.tag.versioning.description',
-    }),
-    color: '#fe6829',
   },
 
   large: {
     label: translate({message: 'Large'}),
     description: translate({
       message:
-        'Very large Docusaurus sites, including many more pages than the average!',
+        'Very large sites, including many more pages than the average!',
       id: 'showcase.tag.large.description',
     }),
     color: '#8c2f00',
-  },
-
-  meta: {
-    label: translate({message: 'Meta'}),
-    description: translate({
-      message: 'Docusaurus sites of Meta (formerly Facebook) projects',
-      id: 'showcase.tag.meta.description',
-    }),
-    color: '#4267b2', // Facebook blue
   },
 
   personal: {
     label: translate({message: 'Personal'}),
     description: translate({
       message:
-        'Personal websites, blogs and digital gardens built with Docusaurus',
+        'Personal websites, blog and documentation',
       id: 'showcase.tag.personal.description',
     }),
     color: '#14cfc3',
   },
-
-  rtl: {
-    label: translate({message: 'RTL Direction'}),
-    description: translate({
-      message:
-        'Docusaurus sites using the right-to-left reading direction support.',
-      id: 'showcase.tag.rtl.description',
-    }),
-    color: '#ffcfc3',
-  },
 };
 
 export const TagList = Object.keys(Tags) as TagType[];
-function sortUsers() {
-  let result = Users;
-  // Sort by site name
-  result = sortBy(result, (user) => user.title.toLowerCase());
-  // Sort by favorite tag, favorites first
-  result = sortBy(result, (user) => !user.tags.includes('favorite'));
-  return result;
-}
-
-export const sortedUsers = sortUsers();
+export const groupByProjects = _.groupBy(Projects, 'type');
