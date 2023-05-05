@@ -55,11 +55,11 @@ const config = {
         },
         hideOnScroll: true,
         items: [
-          /* {
+          {
            to:'projects/',
            label: 'Projects',
            position: 'right'
-          }, */
+          },
           {
             position: 'right',
             label: 'Docs',
@@ -99,10 +99,10 @@ const config = {
           {
             title: 'Learn',
             items: [
-              /*{
+              {
                 label:'Projects',
                 to:'projects/'
-              },*/
+              },
               {
                 label: 'Docs',
                 to: 'docs/projects',

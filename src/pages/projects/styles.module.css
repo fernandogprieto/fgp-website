@@ -80,6 +80,10 @@
   height: 30px;
 }
 
+.showcaseGroup {
+  margin-bottom: 48px; /* Adjust this value to create the desired spacing between groups */
+}
+
 .svgIconFavoriteXs,
 .svgIconFavorite {
   color: var(--site-color-svg-icon-favorite);
@@ -93,3 +97,4 @@
 .svgIconFavorite {
   margin-left: 1rem;
 }
+
