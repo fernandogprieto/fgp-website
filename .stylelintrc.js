@@ -8,6 +8,7 @@ module.exports = {
         ignorePseudoClasses: ['global'],
       },
     ],
+    "media-feature-range-notation": null,
     'selector-class-pattern': null,
     'custom-property-empty-line-before': null,
     'selector-id-pattern': null,

@@ -15,12 +15,6 @@
   text-align: center !important
   }
 
-@media (480px <= width <= 768px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .buttons {
   display: flex;
   align-items: center;
