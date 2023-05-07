@@ -71,6 +71,11 @@ const config = {
             ],
           },
           {
+            to: 'resources/',
+            label: 'Resources',
+            position: 'right',
+          },
+          {
             to: 'blog/',
             label: 'Blog',
             position: 'right',
@@ -99,6 +104,10 @@ const config = {
           {
             title: 'Learn',
             items: [
+              {
+                label: 'Tags',
+                to: 'blog/tags/',
+              },
               {
                 label:'Projects',
                 to:'projects/'
@@ -142,6 +151,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'Resources',
+                to: 'resources/',
+              },
               {
                 label: 'Status',
                 href: 'https://gitlab.com/fernandogprieto/fgp-website',
