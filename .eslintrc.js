@@ -8,4 +8,8 @@ module.exports = {
     'plugin:@docusaurus/recommended',
     'plugin:@typescript-eslint/recommended',
   ],
-}
+  rules: {
+    "@typescript-eslint/no-explicit-any": "error"
+  }
+};
+
