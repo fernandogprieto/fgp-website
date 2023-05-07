@@ -22,7 +22,7 @@ const SUBMIT_URL = 'https://gitlab.com/fernandogprieto/';
 
 function ShowcaseHeader() {
   return (
-    <section className="margin-top--lg margin-bottom--lg text--center">
+    <section className="margin-top--lg margin-bottom--lg text--center container">
       <h1>{TITLE}</h1>
       <p>{DESCRIPTION}</p>
       <Link className="button button--primary" to={SUBMIT_URL}>

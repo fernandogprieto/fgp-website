@@ -13,16 +13,108 @@ export interface ResourceCategory {
 
 export const resourceData: ResourceCategory[] = [
   {
-    name: 'Developer 🖥️',
+    name: 'SRE, DevOps, Cloud & Containers 🖥️',
     resources: [
       {
         name: 'Developer Roadmap',
-        desc: 'guides and other educational content to help guide developers in picking up the path and guide their learnings.',
+        desc: 'guides and other educational content to help guide developers.',
         logo: 'https://roadmap.sh/manifest/favicon.ico',
         href: 'https://roadmap.sh/',
       },
+      {
+        name: 'Google Cloud Skill Boost',
+        desc: 'Choose your learning path, build your skills, and validate your knowledge.',
+        logo: '/img/resources/gcp.png',
+        href: 'https://www.cloudskillsboost.google/',
+      },
+      {
+        name: 'AWS Skill Builder',
+        desc: 'Your learning center to build in-demand cloud skills.',
+        logo: '/img/resources/aws.png',
+        href: 'https://explore.skillbuilder.aws/learn',
+      },
+      {
+        name: 'Azure Cloud Skills',
+        desc: 'Sharpen your cloud skills to accelerate your career and business results',
+        logo: '/img/resources/azure.ico',
+        href: 'https://azure.microsoft.com/en-us/resources/training-and-certifications/',
+      },
+      {
+        name: 'Oracle University',
+        desc: 'Accelerate your cloud adoption and manage continuous change with Oracle Guided Learning',
+        logo: '/img/resources/oracle.png',
+        href: 'https://education.oracle.com/',
+      },
+      {
+        name: 'Red Hat Training',
+        desc: 'Accelerate your cloud adoption and manage continuous change with Oracle Guided Learning',
+        logo: '/img/resources/redhat.ico',
+        href: 'https://www.redhat.com/en/services/training-and-certification',
+      },
+      {
+        name: 'OpenStack Training',
+        desc: 'Open Source Cloud Computing Infrastructure',
+        logo: '/img/resources/openstack.png',
+        href: 'https://www.openstack.org/marketplace/training/',
+      },
+      {
+        name: 'Linux Foundation Training',
+        desc: 'building, maintaining, and managing IT infrastructures of companies',
+        logo: '/img/resources/lf.png',
+        href: 'https://training.linuxfoundation.org/',
+      },
+      {
+        name: 'Docker',
+        desc: 'build images, run containers, use volumes to persist data and mount in source code',
+        logo: '/img/resources/docker.png',
+        href: 'https://www.docker.com/101-tutorial/',
+      },
+      {
+        name: 'Kubernetes Training',
+        desc: 'Accelerate your cloud adoption and manage continuous change with Oracle Guided Learning',
+        logo: '/img/resources/k8s.png',
+        href: 'https://kubernetes.io/training/',
+      },
     ],
   },
+  {
+    name: 'Infrastructure as a Code (IaaC)',
+      resources: [
+        {
+          name: 'Brainboard',
+          desc: ' Standardize IaC, without the learning curve',
+          logo: '/img/resources/brainboard.webp',
+          href: 'https://www.brainboard.co/',
+          tags: ['IaaC'],
+        },
+      ],
+    },
+    {
+      name: 'Code Hosting',
+      resources: [
+        {
+          name: 'GitHub',
+          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+          logo: 'https://github.githubassets.com/favicons/favicon.svg',
+          href: 'https://github.com/',
+          tags: ['GitHub', 'Code Hosting'],
+        },
+        {
+          name: 'Gitlab',
+          desc: 'Deliver secure code more quickly, deploy to any cloud, and drive business results.',
+          logo: 'https://gitlab.com/uploads/-/system/group/avatar/6543/logo-extra-whitespace.png?width=64',
+          href: 'https://gitlab.com/',
+          tags: ['Code Hosting'],
+        },
+        {
+          name: 'Bitbucket',
+          desc: 'Bitbucket Cloud is the native Git tool in Atlassian\'s Open DevOps solution.',
+          logo: '/img/resources/bitbucket.png',
+          href: 'https://bitbucket.org/',
+          tags: ['Code Hosting'],
+        },
+      ],
+    },
   {
   name: 'Website Hosting',
     resources: [
@@ -66,7 +158,7 @@ export const resourceData: ResourceCategory[] = [
         desc: 'Cloud development environments are the fastest,and more secure way, to ship code.',
         logo: '/img/resources/gitpod.png',
         href: 'https://www.gitpod.io/',
-        tags: ['BaaS'],
+        tags: ['Website Hosting'],
       },
     ],
   },
@@ -144,7 +236,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Github readme stats',
         desc: 'Dynamically generated stats for your github readmes',
-        logo: 'img/resources/github-readme-stats.svg',
+        logo: 'https://github.githubassets.com/images/icons/emoji/unicode/1f4ca.png',
         href: 'https://github.com/anuraghazra/github-readme-stats',
         tags: [],
       },
