@@ -116,9 +116,9 @@ export const resourceData: ResourceCategory[] = [
         },
         {
           name: 'Azure DevOps',
-          desc: ' Plan smarter, collaborate better, and ship faster with a set of modern dev services',
+          desc: 'Plan smarter, collaborate better, and ship faster with a set of modern dev services',
           logo: '/img/resources/azure-devops.webp',
-          href: 'Plan smarter, collaborate better, and ship faster with a set of modern dev services',
+          href: 'https://azure.microsoft.com/en-us/products/devops',
           tags: ['IaaC'],
         },
         {
@@ -336,54 +336,6 @@ export const resourceData: ResourceCategory[] = [
         },
       ],
     },
-    /*{
-      name: 'Study',
-      resources: [
-        {
-          name: 'AcloudGuru',
-          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-          logo: 'https://github.githubassets.com/favicons/favicon.svg',
-          href: 'https://github.com/',
-          tags: ['GitHub', 'Code Hosting'],
-        },
-      ],
-    },
-    {
-      name: 'Recommend',
-      resources: [
-        {
-          name: 'AcloudGuru',
-          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-          logo: 'https://github.githubassets.com/favicons/favicon.svg',
-          href: 'https://github.com/',
-          tags: ['GitHub', 'Code Hosting'],
-        },
-      ],
-    },
-    {
-      name: 'Repository',
-      resources: [
-        {
-          name: 'AcloudGuru',
-          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-          logo: 'https://github.githubassets.com/favicons/favicon.svg',
-          href: 'https://github.com/',
-          tags: ['GitHub', 'Code Hosting'],
-        },
-      ],
-    },
-    {
-      name: 'Tools',
-      resources: [
-        {
-          name: 'AcloudGuru',
-          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-          logo: 'https://github.githubassets.com/favicons/favicon.svg',
-          href: 'https://github.com/',
-          tags: ['GitHub', 'Code Hosting'],
-        },
-      ],
-    },*/
     {
       name: 'Code Hosting',
       resources: [
@@ -598,7 +550,58 @@ export const resourceData: ResourceCategory[] = [
       },
     ],
   },
-  /*{
+]
+
+/*
+{
+      name: 'Study',
+      resources: [
+        {
+          name: 'AcloudGuru',
+          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+          logo: 'https://github.githubassets.com/favicons/favicon.svg',
+          href: 'https://github.com/',
+          tags: ['GitHub', 'Code Hosting'],
+        },
+      ],
+    },
+    {
+      name: 'Recommend',
+      resources: [
+        {
+          name: 'AcloudGuru',
+          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+          logo: 'https://github.githubassets.com/favicons/favicon.svg',
+          href: 'https://github.com/',
+          tags: ['GitHub', 'Code Hosting'],
+        },
+      ],
+    },
+    {
+      name: 'Repository',
+      resources: [
+        {
+          name: 'AcloudGuru',
+          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+          logo: 'https://github.githubassets.com/favicons/favicon.svg',
+          href: 'https://github.com/',
+          tags: ['GitHub', 'Code Hosting'],
+        },
+      ],
+    },
+    {
+      name: 'Tools',
+      resources: [
+        {
+          name: 'AcloudGuru',
+          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+          logo: 'https://github.githubassets.com/favicons/favicon.svg',
+          href: 'https://github.com/',
+          tags: ['GitHub', 'Code Hosting'],
+        },
+      ],
+    },
+    {
     name: 'Communities',
     resources: [
       {
@@ -657,5 +660,5 @@ export const resourceData: ResourceCategory[] = [
         tags: ['GitHub', 'Code Hosting'],
       },
     ],
-  },*/
-]
+  },
+  */
