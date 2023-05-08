@@ -17,7 +17,7 @@ export const resourceData: ResourceCategory[] = [
     resources: [
       {
         name: 'Developer Roadmap',
-        desc: 'guides and other educational content to help guide developers.',
+        desc: 'Guides and other educational content to help guide developers.',
         logo: 'https://roadmap.sh/manifest/favicon.ico',
         href: 'https://roadmap.sh/',
       },
@@ -59,13 +59,13 @@ export const resourceData: ResourceCategory[] = [
       },
       {
         name: 'Linux Foundation Training',
-        desc: 'building, maintaining, and managing IT infrastructures of companies',
+        desc: 'Building, maintaining, and managing IT infrastructures of companies',
         logo: '/img/resources/lf.png',
         href: 'https://training.linuxfoundation.org/',
       },
       {
         name: 'Docker',
-        desc: 'build images, run containers, use volumes to persist data and mount in source code',
+        desc: 'Build images, run containers, use volumes to persist data and mount in source code',
         logo: '/img/resources/docker.png',
         href: 'https://www.docker.com/101-tutorial/',
       },
@@ -75,11 +75,17 @@ export const resourceData: ResourceCategory[] = [
         logo: '/img/resources/k8s.png',
         href: 'https://kubernetes.io/training/',
       },
+      {
+        name: 'Nginx Training',
+        desc: 'Fundamentals to advanced load balancing, advanced caching, security, and more.',
+        logo: '/img/resources/nginx.png',
+        href: 'https://www.nginx.com/learn/nginx-training/',
+      },
     ],
   },
   {
     name: 'Infrastructure as a Code (IaaC)',
-      resources: [
+    resources: [
         {
           name: 'Brainboard',
           desc: ' Standardize IaC, without the learning curve',
@@ -87,8 +93,297 @@ export const resourceData: ResourceCategory[] = [
           href: 'https://www.brainboard.co/',
           tags: ['IaaC'],
         },
+        {
+          name: 'Terraform',
+          desc: 'Infrastructure automation to provision and manage resources in any cloud or data center.',
+          logo: 'https://www.terraform.io/favicon.ico',
+          href: 'https://www.terraform.io/',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Jenkins',
+          desc: 'Automate the parts of software development related to building, testing, and deploying, CI/CD ',
+          logo: 'https://www.jenkins.io/apple-touch-icon.png',
+          href: 'https://www.jenkins.io/',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Vault',
+          desc: 'Manage Secrets & Protect Sensitive Data',
+          logo: '/img/resources/vault.png',
+          href: 'https://www.vaultproject.io/',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Azure DevOps',
+          desc: ' Plan smarter, collaborate better, and ship faster with a set of modern dev services',
+          logo: '/img/resources/azure-devops.webp',
+          href: 'Plan smarter, collaborate better, and ship faster with a set of modern dev services',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Terrascan',
+          desc: 'Detect compliance and security violations across',
+          logo: '/img/resources/terrascan.png',
+          href: 'https://www.brainboard.co/',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Infracost',
+          desc: 'Cloud cost estimates for Terraform in pull requests',
+          logo: '/img/resources/infracost.webp',
+          href: 'https://www.infracost.io/',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Aqua Tfsec',
+          desc: 'Security scanner for your Terraform code',
+          logo: '/img/resources/aqua-tfsec.webp',
+          href: 'https://github.com/aquasecurity/tfsec',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Webhook.site',
+          desc: 'Lets you easily inspect, test and automate any incoming HTTP request or e-mail.',
+          logo: '/img/resources/webhook-site.webp',
+          href: 'https://webhook.site/',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Checkov',
+          desc: 'Policy as a code .',
+          logo: '/img/resources/checkov.webp',
+          href: 'https://www.checkov.io/',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Open Policy Agent',
+          desc: 'Policy-based control for cloud native environments',
+          logo: '/img/resources/openpolicy.webp',
+          href: 'https://www.openpolicyagent.org/',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Pulumi',
+          desc: 'Build infrastructure intuitively on any cloud using familiar languages.',
+          logo: 'https://www.pulumi.com/images/favicon.ico',
+          href: 'https://www.pulumi.com/',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Ansible',
+          desc: 'Build infrastructure intuitively on any cloud using familiar languages.',
+          logo: '/img/resources/ansible_logo.svg_.png',
+          href: 'https://www.ansible.com/',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Vagrant',
+          desc: 'Creation and configuration of lightweight, reproducible, and portable development environments.',
+          logo: '/img/resources/vagrant.webp',
+          href: 'https://www.vagrantup.com/',
+          tags: ['IaaC'],
+        },
       ],
     },
+    {
+      name: 'Python 🐍',
+      resources: [
+        {
+          name: 'The Python Package Index (PyPI)',
+          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+          logo: 'https://pypi.org/static/images/logo-small.2a411bc6.svg',
+          href: 'https://pypi.org/',
+          tags: ['Python']
+        },
+        {
+          name: 'Psutil',
+          desc: 'Cross-platform lib for process and system monitoring in Python.',
+          logo: '/img/resources/psutil-logo.png',
+          href: 'https://pypi.org/project/psutil/',
+          tags: ['Python']
+        },
+        {
+          name: 'Os module',
+          desc: 'Miscellaneous operating system interfaces.',
+          logo: '/img/resources/python-module.png',
+          href: 'https://docs.python.org/3/library/os.html',
+          tags: ['Python']
+        },
+        {
+          name: 'Subprocess',
+          desc: 'Subprocess management.',
+          logo: '/img/resources/python-module.png',
+          href: 'https://docs.python.org/3/library/subprocess.html',
+          tags: ['Python']
+        },
+        {
+          name: 'Sys',
+          desc: 'System-specific parameters and functions.',
+          logo: '/img/resources/python-module.png',
+          href: 'https://docs.python.org/3/library/sys.html',
+          tags: ['Python']
+        },
+        {
+          name: 'Re',
+          desc: 'Regular expression operations.',
+          logo: '/img/resources/python-module.png',
+          href: 'https://docs.python.org/3/library/re.html',
+          tags: ['Python']
+        },
+        {
+          name: 'Scapy',
+          desc: 'An Interactive packet manipulation program and library',
+          logo: '/img/resources/scapy.png',
+          href: 'https://pypi.org/project/scapy/',
+          tags: ['Python']
+        },
+        {
+          name: 'Requests',
+          desc: 'A simple, yet elegant, HTTP library',
+          logo: '/img/resources/requests.webp',
+          href: 'https://pypi.org/project/requests/',
+          tags: ['Python']
+        },
+        {
+          name: 'Urllib3',
+          desc: 'A powerful, user-friendly HTTP client for Python',
+          logo: 'https://urllib3.readthedocs.io/en/stable/_static/banner.svg',
+          href: 'https://pypi.org/project/urllib3/',
+          tags: ['Python']
+        },
+        {
+          name: 'Logging',
+          desc: 'Provide a standard error logging mechanism in Python as per PEP 282.',
+          logo: '/img/resources/python-module.png',
+          href: 'https://pypi.org/project/logging/',
+          tags: ['Python']
+        },
+        {
+          name: 'Getpass',
+          desc: 'Portable password input.',
+          logo: '/img/resources/python-module.png',
+          href: 'https://docs.python.org/3/library/getpass.html',
+          tags: ['Python']
+        },
+        {
+          name: 'Boto3',
+          desc: 'Is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python.',
+          logo: '/img/resources/python-module.png',
+          href: 'https://pypi.org/project/boto3/',
+          tags: ['Python']
+        },
+        {
+          name: 'Paramiko',
+          desc: 'A Python implementation of SSHv2.',
+          logo: '/img/resources/python-module.png',
+          href: 'https://www.paramiko.org/',
+          tags: ['Python']
+        },
+        {
+          name: 'JSON',
+          desc: 'Encoder and decoder.',
+          logo: '/img/resources/python-module.png',
+          href: 'https://docs.python.org/3/library/json.html',
+          tags: ['Python']
+        },
+        {
+          name: 'PyYaml',
+          desc: 'Is a YAML parser and emitter for Python.',
+          logo: '/img/resources/python-module.png',
+          href: 'https://pyyaml.org/wiki/PyYAMLDocumentation',
+          tags: ['Python']
+        },
+        {
+          name: 'Smtplib',
+          desc: 'SMTP protocol client.',
+          logo: '/img/resources/python-module.png',
+          href: 'https://pyyaml.org/wiki/PyYAMLDocumentation',
+          tags: ['Python']
+        },
+      ],
+    },
+    {
+      name: 'Scripting',
+      resources: [
+        {
+          name: 'Bash',
+          desc: 'Bash is the GNU Project\'s shell—the Bourne Again SHell.',
+          logo: '/img/resources/bash.png',
+          href: 'https://www.gnu.org/software/bash/',
+          tags: ['Scripting'],
+        },
+        {
+          name: 'Powershell',
+          desc: 'Microsoft-built framework for Windows task automation and configuration management, featuring a command-line interface and scripting language.',
+          logo: '/img/resources/power-shell.webp',
+          href: 'https://www.gnu.org/software/bash/',
+          tags: ['Scripting'],
+        },
+        {
+          name: 'Go',
+          desc: 'An open-source programming language supported by Google.',
+          logo: '/img/resources/go-lang.png',
+          href: 'https://go.dev/',
+          tags: ['Scripting'],
+        },
+        {
+          name: 'Lua',
+          desc: 'Is a powerful, efficient, lightweight, embeddable scripting language.',
+          logo: '/img/resources/lua.png',
+          href: 'https://www.gnu.org/software/bash/',
+          tags: ['Scripting'],
+        },
+      ],
+    },
+    /*{
+      name: 'Study',
+      resources: [
+        {
+          name: 'AcloudGuru',
+          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+          logo: 'https://github.githubassets.com/favicons/favicon.svg',
+          href: 'https://github.com/',
+          tags: ['GitHub', 'Code Hosting'],
+        },
+      ],
+    },
+    {
+      name: 'Recommend',
+      resources: [
+        {
+          name: 'AcloudGuru',
+          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+          logo: 'https://github.githubassets.com/favicons/favicon.svg',
+          href: 'https://github.com/',
+          tags: ['GitHub', 'Code Hosting'],
+        },
+      ],
+    },
+    {
+      name: 'Repository',
+      resources: [
+        {
+          name: 'AcloudGuru',
+          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+          logo: 'https://github.githubassets.com/favicons/favicon.svg',
+          href: 'https://github.com/',
+          tags: ['GitHub', 'Code Hosting'],
+        },
+      ],
+    },
+    {
+      name: 'Tools',
+      resources: [
+        {
+          name: 'AcloudGuru',
+          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+          logo: 'https://github.githubassets.com/favicons/favicon.svg',
+          href: 'https://github.com/',
+          tags: ['GitHub', 'Code Hosting'],
+        },
+      ],
+    },*/
     {
       name: 'Code Hosting',
       resources: [
@@ -202,10 +497,71 @@ export const resourceData: ResourceCategory[] = [
       },
       {
       name: 'onlineGBD',
-        desc: 'code. compile. run. debug. share.',
+        desc: 'Code. compile. run. debug. share.',
         logo: 'https://www.onlinegdb.com/favicon.ico',
         href: 'https://www.onlinegdb.com/online_python_compiler',
         tags: ['Live Coding'],
+      },
+    ],
+  },
+  {
+    name: 'Site Generation',
+    resources: [
+      {
+      name: 'VitePress',
+      desc: 'A static site generator driven by Vue and built with Vite',
+      logo: 'https://vuepress.vuejs.org/hero.png',
+      href: 'https://vitepress.vuejs.org',
+      tags: ['frontend', 'Vue', 'static site'],
+      },
+      {
+      name: 'VuePress',
+      desc: 'A static site generator driven by Vue',
+      logo: 'https://vuepress.vuejs.org/hero.png',
+      href: 'https://vuepress.vuejs.org',
+      tags: ['frontend', 'Vue', 'static site'],
+      },
+      {
+      name: 'Docusaurus',
+      desc: 'Quickly build content-centric best websites',
+      logo: '/img/resources/docusaurus.svg',
+      href: 'https://docusaurus.io',
+      tags: ['frontend', 'React', 'static site'],
+      },
+      {
+      name: 'Hexo',
+      desc: 'A fast, simple, and efficient blogging framework',
+      logo: 'https://hexo.io/favicon.ico',
+      href: 'https://hexo.io',
+      tags: ['frontend', 'static site'],
+      },
+      {
+      name: 'GitBook',
+      desc: 'GitBook helps you publish beautiful documentation for your users and centralize your team\'s knowledge for advanced collaboration',
+      logo: '/img/resources/gitbook.png',
+      href: 'https://www.gitbook.com/',
+      tags: ['frontend', 'static site'],
+      },
+      {
+      name: 'Docsify',
+      desc: 'docsify can quickly help you generate documentation websites',
+      logo: 'https://docsify.js.org/_media/icon.svg',
+      href: 'https://docsify.js.org',
+      tags: ['frontend', 'static site'],
+      },
+      {
+        name: 'WordPress',
+        desc: 'WordPress is open-source software that enables you to create excellent websites, blogs, or applications',
+        logo: 'https://s.w.org/images/wmark.png',
+        href: 'https://cn.wordpress.org/',
+        tags: ['frontend', 'site'],
+        },
+      {
+      name: 'Nextra',
+      desc: 'Simple, powerful and flexible site generation framework',
+      logo: 'https://nextra.site/favicon.svg',
+      href: 'https://nextra.site/docs',
+      tags: ['frontend', 'site'],
       },
     ],
   },
@@ -228,7 +584,7 @@ export const resourceData: ResourceCategory[] = [
       },
       {
         name: 'GitHub Profile README Generator',
-        desc: 'Dynamically generated stats for your github readmes',
+        desc: 'Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI',
         logo: '/img/resources/gh-profile.png',
         href: 'https://rahuldkjain.github.io/gh-profile-readme-generator/',
         tags: [],
@@ -236,10 +592,70 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Github readme stats',
         desc: 'Dynamically generated stats for your github readmes',
-        logo: 'https://github.githubassets.com/images/icons/emoji/unicode/1f4ca.png',
+        logo: '/img/resources/gh-readme.png',
         href: 'https://github.com/anuraghazra/github-readme-stats',
         tags: [],
       },
     ],
   },
+  /*{
+    name: 'Communities',
+    resources: [
+      {
+        name: 'AcloudGuru',
+        desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+        logo: 'https://github.githubassets.com/favicons/favicon.svg',
+        href: 'https://github.com/',
+        tags: ['GitHub', 'Code Hosting'],
+      },
+    ],
+  },
+  {
+    name: 'Academyc Papers',
+    resources: [
+      {
+        name: 'AcloudGuru',
+        desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+        logo: 'https://github.githubassets.com/favicons/favicon.svg',
+        href: 'https://github.com/',
+        tags: ['GitHub', 'Code Hosting'],
+      },
+    ],
+  },
+  {
+    name: 'Maths',
+    resources: [
+      {
+        name: 'AcloudGuru',
+        desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+        logo: 'https://github.githubassets.com/favicons/favicon.svg',
+        href: 'https://github.com/',
+        tags: ['GitHub', 'Code Hosting'],
+      },
+    ],
+  },
+  {
+    name: 'AI',
+    resources: [
+      {
+        name: 'AcloudGuru',
+        desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+        logo: 'https://github.githubassets.com/favicons/favicon.svg',
+        href: 'https://github.com/',
+        tags: ['GitHub', 'Code Hosting'],
+      },
+    ],
+  },
+  {
+    name: 'MLops',
+    resources: [
+      {
+        name: 'AcloudGuru',
+        desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
+        logo: 'https://github.githubassets.com/favicons/favicon.svg',
+        href: 'https://github.com/',
+        tags: ['GitHub', 'Code Hosting'],
+      },
+    ],
+  },*/
 ]

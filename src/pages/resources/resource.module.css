@@ -3,6 +3,7 @@
   overflow-y: auto;
   position: sticky;
   top: calc(var(--ifm-navbar-height) + 2rem);
+  width: 100px;
 }
 
 .sidebarItemTitle {
