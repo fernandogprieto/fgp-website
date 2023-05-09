@@ -304,7 +304,7 @@ export const resourceData: ResourceCategory[] = [
       ],
     },
     {
-      name: 'Scripting',
+      name: 'Scripting & Config ',
       resources: [
         {
           name: 'Bash',
@@ -315,7 +315,7 @@ export const resourceData: ResourceCategory[] = [
         },
         {
           name: 'Powershell',
-          desc: 'Microsoft-built framework for Windows task automation and configuration management, featuring a command-line interface and scripting language.',
+          desc: 'Microsoft-built framework for Windows task automation and configuration management.',
           logo: '/img/resources/power-shell.webp',
           href: 'https://www.gnu.org/software/bash/',
           tags: ['Scripting'],
@@ -333,6 +333,53 @@ export const resourceData: ResourceCategory[] = [
           logo: '/img/resources/lua.png',
           href: 'https://www.gnu.org/software/bash/',
           tags: ['Scripting'],
+        },
+        {
+          name: 'YAML',
+          desc: 'A human-friendly data serialization language for all programming languages',
+          logo: 'https://yaml.org/favicon.svg',
+          href: 'https://yaml.org/',
+          tags: ['Config'],
+        },
+        {
+          name: 'JSON',
+          desc: 'JavaScript Object Notation is a lightweight data-interchange format.',
+          logo: 'https://www.json.org/favicon.png',
+          href: 'https://www.json.org/ ',
+          tags: ['Config'],
+        },
+      ],
+    },
+    {
+      name: 'Educational Resources',
+      resources: [
+        {
+          name: 'Open Up The Cloud',
+          desc: 'GET YOUR START, AND GROW YOUR CAREER IN CLOUD.',
+          logo: '/img/resources/openupthecloud.ico',
+          href: 'https://openupthecloud.com/',
+          tags: ['Educational Resources'],
+        },
+        {
+          name: 'Learn to the Cloud',
+          desc: 'GET YOUR START, AND GROW YOUR CAREER IN CLOUD.',
+          logo: 'https://learntocloud.guide/img/favicon.ico',
+          href: 'https://learntocloud.guide/',
+          tags: ['Educational Resources'],
+        },
+        {
+          name: 'Cloud Resume Challenge',
+          desc: 'A proven way to advance your cloud career.',
+          logo: 'https://cloudresumechallenge.dev/images/logo.svg',
+          href: 'https://cloudresumechallenge.dev/',
+          tags: ['Educational Resources'],
+        },
+        {
+          name: 'ACloudGuru',
+          desc: 'A Plurasight company.',
+          logo: '/img/resources/acloudguru.png',
+          href: 'https://acloudguru.com/',
+          tags: ['Educational Resources'],
         },
       ],
     },
@@ -550,115 +597,78 @@ export const resourceData: ResourceCategory[] = [
       },
     ],
   },
-]
-
-/*
-{
-      name: 'Study',
-      resources: [
-        {
-          name: 'AcloudGuru',
-          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-          logo: 'https://github.githubassets.com/favicons/favicon.svg',
-          href: 'https://github.com/',
-          tags: ['GitHub', 'Code Hosting'],
-        },
-      ],
-    },
-    {
-      name: 'Recommend',
-      resources: [
-        {
-          name: 'AcloudGuru',
-          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-          logo: 'https://github.githubassets.com/favicons/favicon.svg',
-          href: 'https://github.com/',
-          tags: ['GitHub', 'Code Hosting'],
-        },
-      ],
-    },
-    {
-      name: 'Repository',
-      resources: [
-        {
-          name: 'AcloudGuru',
-          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-          logo: 'https://github.githubassets.com/favicons/favicon.svg',
-          href: 'https://github.com/',
-          tags: ['GitHub', 'Code Hosting'],
-        },
-      ],
-    },
-    {
-      name: 'Tools',
-      resources: [
-        {
-          name: 'AcloudGuru',
-          desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-          logo: 'https://github.githubassets.com/favicons/favicon.svg',
-          href: 'https://github.com/',
-          tags: ['GitHub', 'Code Hosting'],
-        },
-      ],
-    },
-    {
+  {
+    name: 'Tools',
+    resources: [
+      {
+        name: 'Bitwarden',
+        desc: 'Password manager.',
+        logo: '/img/resources/bitwarden.png',
+        href: 'https://bitwarden.com/',
+        tags: ['Tools'],
+      },
+      {
+        name: 'Raindrop',
+        desc: 'All-in-one bookmark manager.',
+        logo: '/img/resources/raindropio.png',
+        href: 'https://raindrop.io/',
+        tags: ['Tools'],
+      },
+      {
+        name: 'NordVPN',
+        desc: 'Stay safe online with the leading VPN service.',
+        logo: '/img/resources/nordvpn.png',
+        href: 'https://nordvpn.com/',
+        tags: ['Tools'],
+      },
+      {
+        name: 'Workona',
+        desc: 'The essential work organizer for the browser.',
+        logo: '/img/resources/workona.png',
+        href: 'https://workona.com/',
+        tags: ['Tools'],
+      },
+      {
+        name: 'ClickUp',
+        desc: 'Manage Teams & Tasks ',
+        logo: '/img/resources/clickup.webp',
+        href: 'https://clickup.com',
+        tags: ['Tools'],
+      },
+    ],
+  },
+  {
     name: 'Communities',
     resources: [
       {
-        name: 'AcloudGuru',
-        desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-        logo: 'https://github.githubassets.com/favicons/favicon.svg',
-        href: 'https://github.com/',
-        tags: ['GitHub', 'Code Hosting'],
+        name: 'Docusaurus',
+        desc: 'Open Source Community | Site Generator.',
+        logo: '/img/resources/discord.png',
+        href: 'https://discord.gg/docusaurus',
+        tags: ['Tools'],
       },
-    ],
-  },
-  {
-    name: 'Academyc Papers',
-    resources: [
       {
-        name: 'AcloudGuru',
-        desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-        logo: 'https://github.githubassets.com/favicons/favicon.svg',
-        href: 'https://github.com/',
-        tags: ['GitHub', 'Code Hosting'],
+        name: 'Cloud Resume Challenge',
+        desc: 'Cloud career questions, job postings, and study groups.',
+        logo: '/img/resources/discord.png',
+        href: 'https://discord.gg/2PTwAth',
+        tags: ['Tools'],
       },
-    ],
-  },
-  {
-    name: 'Maths',
-    resources: [
       {
-        name: 'AcloudGuru',
-        desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-        logo: 'https://github.githubassets.com/favicons/favicon.svg',
-        href: 'https://github.com/',
-        tags: ['GitHub', 'Code Hosting'],
+        name: 'Nginx',
+        desc: 'Here, users can discuss and collaborate on Nginx, a popular web server and reverse proxy server',
+        logo: '/img/resources/slack.png',
+        href: 'https://nginxcommunity.slack.com/',
+        tags: ['Tools'],
       },
     ],
   },
-  {
-    name: 'AI',
-    resources: [
-      {
-        name: 'AcloudGuru',
-        desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-        logo: 'https://github.githubassets.com/favicons/favicon.svg',
-        href: 'https://github.com/',
-        tags: ['GitHub', 'Code Hosting'],
-      },
-    ],
-  },
-  {
-    name: 'MLops',
-    resources: [
-      {
-        name: 'AcloudGuru',
-        desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-        logo: 'https://github.githubassets.com/favicons/favicon.svg',
-        href: 'https://github.com/',
-        tags: ['GitHub', 'Code Hosting'],
-      },
-    ],
-  },
-  */
+]
+
+/*
+E-Learning
+Academic Papers
+Maths
+AI
+MLOps
+*/
