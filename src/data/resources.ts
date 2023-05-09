@@ -661,7 +661,13 @@ export const resourceData: ResourceCategory[] = [
         href: 'https://nginxcommunity.slack.com/',
         tags: ['Tools'],
       },
-
+      {
+        name: 'Nginx',
+        desc: 'Here, users can discuss and collaborate on Nginx, a popular web server and reverse proxy server',
+        logo: '/img/resources/slack.png',
+        href: 'https://nginxcommunity.slack.com/',
+        tags: ['Tools'],
+      },
     ],
   },
 ]
