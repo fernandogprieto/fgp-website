@@ -76,6 +76,12 @@ export const resourceData: ResourceCategory[] = [
         href: 'https://kubernetes.io/training/',
       },
       {
+        name: 'Cloud Native Computing Foundation',
+        desc: 'CNCF is a vendor-neutral organization fostering cloud native computing, promoting its widespread adoption.',
+        logo: 'https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/favicon.svg',
+        href: 'https://www.cncf.io/',
+      },
+      {
         name: 'Nginx Training',
         desc: 'Fundamentals to advanced load balancing, advanced caching, security, and more.',
         logo: '/img/resources/nginx.png',
@@ -184,6 +190,54 @@ export const resourceData: ResourceCategory[] = [
           href: 'https://www.vagrantup.com/',
           tags: ['IaaC'],
         },
+      ],
+    },
+    {
+      name: 'Kubernetes Tools',
+      resources: [
+        {
+          name: 'K8slens',
+          desc: 'IDE for Kubernetes. The only system you\'ll ever need to take control of your Kubernetes clusters.',
+          logo: '/img/resources/k8slens.png',
+          href: 'https://k8slens.dev/',
+          tags: ['Kubernetes Tools'],
+        },
+        {
+          name: 'Helm',
+          desc: 'The package manager for Kubernetes',
+          logo: 'https://helm.sh/img/helm.svg',
+          href: 'https://bitnami.com/stacks/helm',
+          tags: ['Kubernetes Tools'],
+        },
+        {
+          name: 'Bitnami',
+          desc: 'Provides pre-configured stacks for easy deployment and management of open-source applications',
+          logo: '/img/resources/bitnami.png',
+          href: 'https://bitnami.com/',
+          tags: ['Kubernetes Tools'],
+        },
+        {
+          name: 'ArtifactHub',
+          desc: 'Find, install and publish kubernetes packages',
+          logo: '/img/resources/artifacthub.png',
+          href: 'https://bitnami.com/stacks/helm',
+          tags: ['Kubernetes Tools'],
+        },
+        {
+          name: 'K9scli',
+          desc: 'Kubernetes CLI To Manage Your Clusters In Style!',
+          logo: 'https://k9scli.io/assets/k9s.png',
+          href: 'https://k9scli.io/',
+          tags: ['Kubernetes Tools'],
+        },
+        {
+          name: 'Kubecolor',
+          desc: 'Colorizes kubectl output!',
+          logo: '/img/resources/kube-color.png',
+          href: 'https://github.com/hidetatz/kubecolor',
+          tags: ['Kubernetes Tools'],
+        },
+
       ],
     },
     {
@@ -659,6 +713,20 @@ export const resourceData: ResourceCategory[] = [
         desc: 'Here, users can discuss and collaborate on Nginx, a popular web server and reverse proxy server',
         logo: '/img/resources/slack.png',
         href: 'https://nginxcommunity.slack.com/',
+        tags: ['Tools'],
+      },
+      {
+        name: 'Kubernetes',
+        desc: 'A collaboration space for Kubernetes enthusiasts to share knowledge, discuss topics, and stay updated on the latest developments.',
+        logo: '/img/resources/slack.png',
+        href: 'https://kubernetes.slack.com',
+        tags: ['Tools'],
+      },
+      {
+        name: 'Cloud Native Computing Founding',
+        desc: 'A collaborative platform for discussing and sharing knowledge about cloud native technologies and projects.',
+        logo: '/img/resources/slack.png',
+        href: 'https://slack.cncf.io/',
         tags: ['Tools'],
       },
     ],
