@@ -723,7 +723,7 @@ export const resourceData: ResourceCategory[] = [
         tags: ['Tools'],
       },
       {
-        name: 'Cloud Native Computing Founding',
+        name: 'Cloud Native Computing Foundation',
         desc: 'A collaborative platform for discussing and sharing knowledge about cloud native technologies and projects.',
         logo: '/img/resources/slack.png',
         href: 'https://slack.cncf.io/',
