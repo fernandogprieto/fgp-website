@@ -731,12 +731,50 @@ export const resourceData: ResourceCategory[] = [
       },
     ],
   },
+  {
+    name: 'E-Learning',
+    resources: [
+      {
+        name: 'ClassCentral',
+        desc: 'Find the best courses, wherever they exist.',
+        logo: 'https://www.classcentral.com/safari-pinned-tab.svg',
+        href: 'https://www.classcentral.com/',
+        tags: ['E-Learning'],
+      },
+      {
+        name: 'Coursera',
+        desc: 'Learn without limits.',
+        logo: '/img/resources/coursera.png',
+        href: 'https://discord.gg/2PTwAth',
+        tags: ['E-Learning'],
+      },
+      {
+        name: 'Edx',
+        desc: 'Learning is what you make of it. Make it yours at edX.',
+        logo: 'https://www.edx.org/images/logos/edx-logo-elm.svg',
+        href: 'https://www.edx.org/',
+        tags: ['E-Learning'],
+      },
+      {
+        name: 'MIT',
+        desc: 'MIT OpenCourseWare is a web based publication of virtually all MIT course content.',
+        logo: 'https://ocw.mit.edu/static_shared/images/ocw_logo_orange.png',
+        href: 'https://ocw.mit.edu/',
+        tags: ['E-Learning'],
+      },
+      {
+        name: 'O\'Reilly Learning',
+        desc: 'Provides individuals, teams, and businesses with expert-created.',
+        logo: 'https://www.oreilly.com/favicon.ico',
+        href: 'https://www.oreilly.com/online-learning/',
+        tags: ['E-Learning'],
+      },
+    ],
+  },
 ]
 
 /*
-E-Learning
 Academic Papers
-Maths
 AI
 MLOps
 */
