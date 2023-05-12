@@ -771,11 +771,110 @@ export const resourceData: ResourceCategory[] = [
       },
     ],
   },
+  {
+    name: 'Academic Papers',
+    resources: [
+      {
+        name: 'Science',
+        desc: 'A global journal for peer-reviewed research and scientific breakthroughs.',
+        logo: '/img/resources/science.webp',
+        href: 'https://www.science.org/journal/science',
+        tags: ['Academic Papers'],
+      },
+      {
+        name: 'Nature',
+        desc: 'A leading multidisciplinary science journal driving groundbreaking discovery since 1869.',
+        logo: '/img/resources/nature.png',
+        href: 'https://www.nature.com/',
+        tags: ['Academic Papers'],
+      },
+      {
+        name: 'Google Scholar',
+        desc: 'Stand on the shoulders of giants.',
+        logo: '/img/resources/scholar_logo.png',
+        href: 'https://scholar.google.com/',
+        tags: ['Academic Papers'],
+      },
+      {
+        name: 'Arvix',
+        desc: 'Comprehensive open-access archive for scholarly articles in various scientific and quantitative disciplines.',
+        logo: '/img/resources/arvix.png',
+        href: 'https://arxiv.org/',
+        tags: ['Academic Papers'],
+      },
+    ],
+  },
+  {
+    name: 'AI',
+    resources: [
+      {
+        name: 'ChatGPT',
+        desc: 'Generative pre-trained transformer.',
+        logo: 'https://chat.openai.com/apple-touch-icon.png',
+        href: 'https://chat.openai.com/',
+        tags: ['AI'],
+      },
+      {
+        name: 'GitHub Copilot',
+        desc: 'Uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.',
+        logo: '/img/resources/copilot.png',
+        href: 'https://github.com/features/copilot',
+        tags: ['AI'],
+      },
+      {
+        name: 'Bing',
+        desc: 'AI-powered search engine owned and operated by Microsoft.',
+        logo: '/img/resources/bing.png',
+        href: 'https://www.bing.com/?/ai',
+        tags: ['AI'],
+      },
+      {
+        name: 'Bard',
+        desc: 'AI-powered search engine owned and operated by Google.',
+        logo: '/img/resources/bard.png',
+        href: 'https://bard.google.com/',
+        tags: ['AI'],
+      },
+    ],
+  },
+  {
+    name: 'MLOps',
+    resources: [
+      {
+        name: 'Hugging Face',
+        desc: 'The AI community building the future.',
+        logo: 'https://huggingface.co/front/assets/huggingface_logo-noborder.svg',
+        href: 'https://huggingface.co/',
+        tags: ['MLOps'],
+      },
+      {
+        name: 'Deep Learning AI',
+        desc: 'Build your AI career.',
+        logo: 'https://www.deeplearning.ai/static/favicons/favicon.ico',
+        href: 'https://www.deeplearning.ai/',
+        tags: ['MLOps'],
+      },
+      {
+        name: 'Meta AI',
+        desc: 'Build your AI career.',
+        logo: '/img/resources/meta.png',
+        href: 'https://ai.facebook.com/',
+        tags: ['MLOps'],
+      },
+      {
+        name: 'Google AI',
+        desc: 'Advancing AI for everyone.',
+        logo: '/img/resources/google-ai.svg',
+        href: 'https://ai.google/',
+        tags: ['MLOps'],
+      },
+      {
+        name: 'Microsoft AI',
+        desc: 'Embrace the future of productivity and limitless innovation.',
+        logo: '/img/resources/azure.ico',
+        href: 'https://www.microsoft.com/en-us/ai',
+        tags: ['MLOps'],
+      },
+    ],
+  },
 ]
-
-
-/*
-Academic Papers
-AI
-MLOps
-*/
