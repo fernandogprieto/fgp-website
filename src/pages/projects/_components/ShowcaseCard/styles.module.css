@@ -53,7 +53,7 @@
 }
 
 .showcaseCardSrcBtn:focus-visible {
-  background-color: var(--ifm-color-secondary-dark);
+  background-color: var(--ifm-color-seconday-dark);
 }
 
 [data-theme='dark'] .showcaseCardSrcBtn {
