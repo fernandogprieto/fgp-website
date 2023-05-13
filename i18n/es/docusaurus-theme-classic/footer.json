@@ -50,5 +50,13 @@
   "copyright": {
     "message": "Copyright © 2023 Fernando Prieto Website. Built with Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Tags": {
+    "message": "Tags",
+    "description": "The label of footer link with label=Tags linking to blog/tags/"
+  },
+  "link.item.label.Resources": {
+    "message": "Recursos",
+    "description": "The label of footer link with label=Resources linking to resources/"
   }
 }

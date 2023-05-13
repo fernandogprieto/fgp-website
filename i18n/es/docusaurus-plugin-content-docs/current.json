@@ -6,5 +6,9 @@
   "sidebar.projects.category.My Cloud Journey Project - Docusaurus Website": {
     "message": "My Cloud Journey - Proyecto Docusaurus",
     "description": "The label for category My Cloud Journey Project - Docusaurus Website in sidebar projects"
+  },
+  "sidebar.projects.category.Cloud Resume Challenge - GCP": {
+    "message": "Cloud Resume Challenge - GCP",
+    "description": "The label for category Cloud Resume Challenge - GCP in sidebar projects"
   }
 }

@@ -8,7 +8,7 @@
     "description": "A list of key topics displayed on the homepage as a slogan, highlighting the main themes of the website"
   },
   "theme.ErrorPageContent.title": {
-    "message": "This page crashed.",
+    "message": "Esta página se ha caído.",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.NotFound.title": {
@@ -24,7 +24,7 @@
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.admonition.note": {
-    "message": "note",
+    "message": "nota",
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
@@ -32,7 +32,7 @@
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.danger": {
-    "message": "danger",
+    "message": "peligro",
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
@@ -40,7 +40,7 @@
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.caution": {
-    "message": "caution",
+    "message": "precaución",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
@@ -92,15 +92,15 @@
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
+    "message": "Cambiar a modo nocturno ó diurno (currently {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "modo nocturno",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "modo diurno",
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
@@ -132,7 +132,7 @@
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "Versión: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Esta es documentación sin liberar para {siteTitle} {versionLabel} versión.",
@@ -199,12 +199,12 @@
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "Alternar ajuste de línea",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "Toggle the collapsible sidebar category '{label}'",
-    "description": "The ARIA label to toggle the collapsible sidebar category"
+    "message": "Alternar la categoría colapsable de la barra lateral '{label}'",
+    "description":  "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
     "message": "Main",
@@ -243,11 +243,11 @@
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "Barra lateral de documentos",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
+    "message": "Cerrar barra de navegación",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
@@ -255,7 +255,7 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
+    "message": "Alternar barra de navegación",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.sidebar.expandButtonTitle": {
@@ -310,103 +310,103 @@
     "description": "The label and ARIA label for search box reset button"
   },
   "theme.SearchModal.searchBox.cancelButtonText": {
-    "message": "Cancel",
+    "message": "Cancelar",
     "description": "The label and ARIA label for search box cancel button"
   },
   "theme.SearchModal.startScreen.recentSearchesTitle": {
-    "message": "Recent",
+    "message": "Reciente",
     "description": "The title for recent searches"
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {
-    "message": "No recent searches",
+    "message": "No hay búsquedas recientes",
     "description": "The text when no recent searches"
   },
   "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
-    "message": "Save this search",
+    "message": "Guardar esta búsqueda",
     "description": "The label for save recent search button"
   },
   "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
-    "message": "Remove this search from history",
+    "message": "Eliminar esta búsqueda del historial",
     "description": "The label for remove recent search button"
   },
   "theme.SearchModal.startScreen.favoriteSearchesTitle": {
-    "message": "Favorite",
+    "message": "Favoritas",
     "description": "The title for favorite searches"
   },
   "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
-    "message": "Remove this search from favorites",
+    "message": "Eliminar esta búsqueda de favoritas",
     "description": "The label for remove favorite search button"
   },
   "theme.SearchModal.errorScreen.titleText": {
-    "message": "Unable to fetch results",
+    "message": "No se pueden obtener resultados",
     "description": "The title for error screen of search modal"
   },
   "theme.SearchModal.errorScreen.helpText": {
-    "message": "You might want to check your network connection.",
+    "message": "Es posible que desee verificar su conexión de red.",
     "description": "The help text for error screen of search modal"
   },
   "theme.SearchModal.footer.selectText": {
-    "message": "to select",
+    "message": "para seleccionar",
     "description": "The explanatory text of the action for the enter key"
   },
   "theme.SearchModal.footer.selectKeyAriaLabel": {
-    "message": "Enter key",
+    "message": "Tecla de enter",
     "description": "The ARIA label for the Enter key button that makes the selection"
   },
   "theme.SearchModal.footer.navigateText": {
-    "message": "to navigate",
+    "message": "para navegar",
     "description": "The explanatory text of the action for the Arrow up and Arrow down key"
   },
   "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
-    "message": "Arrow up",
+    "message": "Tecla de flecha hacia arriba",
     "description": "The ARIA label for the Arrow up key button that makes the navigation"
   },
   "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
-    "message": "Arrow down",
+    "message": "Tecla de flecha hacia abajo",
     "description": "The ARIA label for the Arrow down key button that makes the navigation"
   },
   "theme.SearchModal.footer.closeText": {
-    "message": "to close",
+    "message": "para cerrar",
     "description": "The explanatory text of the action for Escape key"
   },
   "theme.SearchModal.footer.closeKeyAriaLabel": {
-    "message": "Escape key",
+    "message": "Tecla Escape",
     "description": "The ARIA label for the Escape key button that close the modal"
   },
   "theme.SearchModal.footer.searchByText": {
-    "message": "Search by",
+    "message": "Buscar por",
     "description": "The text explain that the search is making by Algolia"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
-    "message": "No results for",
+    "message": "No hay resultados para",
     "description": "The text explains that there are no results for the following search"
   },
   "theme.SearchModal.noResultsScreen.suggestedQueryText": {
-    "message": "Try searching for",
+    "message": "Intenta buscar",
     "description": "The text for the suggested query when no results are found for the following search"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
-    "message": "Believe this query should return results?",
+    "message": "Crees que esta consulta debería devolver resultados?",
     "description": "The text for the question where the user thinks there are missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
-    "message": "Let us know.",
+    "message": "Dejanós saber.",
     "description": "The text for the link to report missing results"
   },
   "theme.SearchModal.placeholder": {
-    "message": "Search docs",
+    "message": "Buscar documentos",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
   "theme.IdealImageMessage.loading": {
-    "message": "Loading...",
+    "message": "Cargando...",
     "description": "When the full-scale image is loading"
   },
   "theme.IdealImageMessage.load": {
-    "message": "Click to load{sizeMessage}",
+    "message": "Haz clic para cargar{sizeMessage}",
     "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
   },
   "theme.IdealImageMessage.offline": {
-    "message": "Your browser is offline. Image not loaded",
+    "message": "Su navegador está desconectado.. No se pudo cargar la imagen",
     "description": "When the user is viewing an offline document"
   },
   "theme.IdealImageMessage.404error": {
@@ -414,7 +414,7 @@
     "description": "When the image is not found"
   },
   "theme.IdealImageMessage.error": {
-    "message": "Error. Click to reload",
+    "message": "Error. Haz clic para recargar",
     "description": "When the image fails to load for unknown error"
   },
   "theme.ErrorPageContent.tryAgain": {
@@ -428,5 +428,94 @@
   "theme.tags.tagsPageTitle": {
     "message": "Etiquetas",
     "description": "The title of the tag list page"
+  },
+  "Favorite": {
+    "message": "Favorito",
+    "description": "A site you love"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "Mis sitios favoritos debes cheaquearlo!"
+  },
+  "Open-Source": {
+    "message": "Código Abierto",
+    "description": "Free software that's open for all."
+  },
+  "showcase.tag.opensource.description": {
+    "message": "Código Abierto se puede usar para inspirarse!"
+  },
+  "Product": {
+    "message": "Producto",
+    "description": "This is a description of the Product tag"
+  },
+  "showcase.tag.product.description": {
+    "message": "Páginas de Docusarus asociadas a productos comerciales",
+    "description": "Docusaurus sites associated to a commercial product!"
+  },
+  "I18n": {
+    "message": "I18n"
+
+  },
+  "showcase.tag.i18n.description": {
+    "message": "Sitios traducidos usando i18n soporte ."
+  },
+  "Large": {
+    "message": "Largo"
+  },
+  "showcase.tag.large.description": {
+    "message": "Páginas completas, con gran contenido e infraestructura!"
+  },
+  "Personal": {
+    "message": "Personal"
+  },
+  "showcase.tag.personal.description": {
+    "message": "Web personal, blog y documentación"
+  },
+  "theme.project.title": {
+    "message": "Mi Portafolio"
+  },
+  "theme.project.description": {
+    "message": "Explora los proyectos que he desarrolado y contribuido"
+  },
+  "theme.project.header.button": {
+    "message": "😎 Clona mi repo"
+  },
+  "showcase.card.sourceLink": {
+    "message": "código"
+  },
+  "showcase.card.docsLink": {
+    "message": "docs"
+  },
+  "project.myCloudJourney.title": {
+      "message": "Proyecto Cloud Journey",
+      "description": "Title for My Cloud Journey project"
+  },
+  "project.myCloudJourney.description": {
+      "message": "🖥️ Sitio web personal que destaca mis experiencias, experticia, blog y tutoriales en los dominios de computación en la nube.",
+      "description": "Description for My Cloud Journey project"
+  },
+  "project.cloudResumeChallenge.title": {
+      "message": "Desafío de Currículum en la Nube",
+      "description": "Title for Cloud Resume Challenge project"
+  },
+  "project.cloudResumeChallenge.description": {
+      "message": "📚 Construir y desplegar un sitio web de currículum personal utilizando los servicios de Google Cloud Platform, mostrando la experiencia y práctica en tecnología de la nube.",
+      "description": "Description for Cloud Resume Challenge project"
+  },
+  "project.dotfiles.title": {
+      "message": "Dotfiles",
+      "description": "Title for Dotfiles project"
+  },
+  "project.dotfiles.description": {
+      "message": "Están diseñados para optimizar mi entorno de desarrollo para una eficiencia máxima y un flujo de trabajo sin interrupciones",
+      "description": "Description for Dotfiles project"
+  },
+  "project.type.personal": {
+    "message": "Personal"
+  },
+  "project.type.collaboration": {
+    "message": "Colaboración"
+  },
+  "project.type.other": {
+    "message": "Otro"
   }
 }

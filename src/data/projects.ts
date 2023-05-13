@@ -1,13 +1,21 @@
 
 /* eslint-disable global-require */
 
-import {translate} from '@docusaurus/Translate';
+import  {translate} from '@docusaurus/Translate';
 import _ from 'lodash';
 
 const Projects: Project[] = [
   {
-    title: 'My Cloud Journey',
-    description:' 🖥️ Personal website that highlights my experiences, expertise, blog and tutorials in the cloud computing domains.',
+    title: translate({
+      id: 'project.myCloudJourney.title',
+      message: 'My Cloud Journey',
+      description: 'Title for My Cloud Journey project',
+    }),
+    description: translate({
+      id: 'project.myCloudJourney.description',
+      message: '🖥️ Personal website that highlights my experiences, expertise, blog and tutorials in the cloud computing domains.',
+      description: 'Description for My Cloud Journey project',
+    }),
     preview: require('@site/static/img/projects/docusaurus/fernandogprieto.png'),
     website: 'https://www.fernandogprieto.com/',
     source: 'https://gitlab.com/fernandogprieto/fgp-website',
@@ -16,15 +24,23 @@ const Projects: Project[] = [
     type: 'Personal',
   },
   {
-    title: 'Cloud Resume Challenge',
-    description:
-    ' 📚 Build and deploy a personal resume website using Google Cloud Platform services, showcasing cloud technology expertise and hands-on experience.',
+    title: translate({
+      id: 'project.cloudResumeChallenge.title',
+      message: 'Cloud Resume Challenge',
+      description: 'Title for Cloud Resume Challenge project',
+    }),
+    description: translate({
+      id: 'project.cloudResumeChallenge.description',
+      message: '📚 Build and deploy a personal resume website using Google Cloud Platform services, showcasing cloud technology expertise and hands-on experience.',
+      description: 'Description for Cloud Resume Challenge project',
+    }),
     preview: require('@site/static/img/projects/docusaurus/crc-gcp.png'),
     website: 'https://www.fernandogprieto.dev',
     source: 'https://gitlab.com/fernandogprieto/cloud-resume-challenge-frontend',
     docs: 'https://www.fernandogprieto.com/docs/crc-gcp-intro',
     tags: ['opensource', 'favorite'],
     type: 'Personal',
+
   },
   /*{
     title: 'TSEI.JP',
@@ -37,8 +53,16 @@ const Projects: Project[] = [
     type: 'Collaboration',
   },*/
   {
-    title: 'Dotfiles',
-    description: 'This collection features my meticulously assembled personal dotfiles, tailored to optimize my development environment for peak efficiency and seamless workflow..',
+    title: translate({
+      id: 'project.dotfiles.title',
+      message: 'Dotfiles',
+      description: 'Title for Dotfiles project',
+    }),
+    description: translate({
+      id: 'project.dotfiles.description',
+      message: 'This collection features my meticulously assembled personal dotfiles, tailored to optimize my development environment for peak efficiency and seamless workflow..',
+      description: 'Description for Dotfiles project',
+    }),
     website: 'https://gitlab.com/fernandogprieto/dotfiles',
     tags: ['opensource'],
     type: 'Other',
@@ -55,8 +79,18 @@ export type Project = {
   tags: TagType[];
   type: ProjectType;
 };
-
 export type ProjectType = 'Personal' | 'Collaboration' | 'Other';
+export const ProjectTypes: {[type in ProjectType]: string} = {
+  'Personal': translate({
+    id: 'project.type.personal',
+    message: 'Personal'}),
+  'Collaboration': translate({
+    id: 'project.type.collaboration',
+    message: 'Collaboration'}),
+  'Other': translate({
+    id: 'project.type.translate',
+    message: 'Other'}),
+};
 
 export type TagType =
   | 'favorite'

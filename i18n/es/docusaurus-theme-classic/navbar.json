@@ -22,5 +22,9 @@
   "item.label.Projects": {
     "message": "Proyectos",
     "description": "Navbar item with label Projects"
+  },
+  "item.label.Resources": {
+    "message": "Recursos",
+    "description": "Navbar item with label Resources"
   }
 }
