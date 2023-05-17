@@ -156,8 +156,8 @@ const config = {
                 to: 'resources/',
               },
               {
-                label: 'Status',
-                href: 'https://gitlab.com/fernandogprieto/fgp-website',
+                label: 'Status Page',
+                href: 'https://status.fernandogprieto.com',
               },
             ],
           },
