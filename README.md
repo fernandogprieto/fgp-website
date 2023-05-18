@@ -1,6 +1,6 @@
 # 👋 Welcome aboard
 
-Crafted with love using [Docusaurus](https://docusaurus.io/) - [🖥 Visit My Cloud Journey](https://fernandogprieto.com)
+Crafted with love using [Docusaurus](https://docusaurus.io/) | [🖥 Visit My Cloud Journey](https://fernandogprieto.com)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://gitlab.com/fernandogprieto/fgp-website.git&project-name=fgp-website&repo-name=fgp-website) [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://gitlab.com/fernandogprieto/fgp-website)
 
