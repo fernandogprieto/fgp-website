@@ -32,6 +32,7 @@
         'projects/docusaurus/docusaurus-search',
         'projects/docusaurus/docusaurus-internationalization',
         'projects/docusaurus/docusaurus-swizzling',
+        'projects/docusaurus/docusaurus-deploy',
       ],
     },
     {
