@@ -156,7 +156,7 @@ const config = {
                 to: 'resources/',
               },
               {
-                label: 'Status Page',
+                label: 'Status',
                 href: 'https://status.fernandogprieto.com',
               },
             ],
