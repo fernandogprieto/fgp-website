@@ -2,7 +2,7 @@
 
 Crafted with love using [Docusaurus](https://docusaurus.io/) - [🖥 Visit My Cloud Journey](https://fernandogprieto.com)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://gitlab.com/fernandogprieto/fgp-website.git&project-name=fgp-website&repo-name=fgp-website)[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://gitlab.com/fernandogprieto/fgp-website.git)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://gitlab.com/fernandogprieto/fgp-website.git&project-name=fgp-website&repo-name=fgp-website) [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://gitlab.com/fernandogprieto/fgp-website)
 
 I'm thrilled to present my varied portfolio, which showcases my talents and accomplishments across several fields. When you browse the site, you'll discover a plethora of tools to help you learn and improve, such as thorough documentation, simple tutorials, and thought-provoking blog posts on a variety of themes.
 
