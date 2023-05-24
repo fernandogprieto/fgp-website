@@ -68,6 +68,10 @@ const config = {
               label: 'Projects',
               to: 'docs/projects',
               },
+              {
+              label: 'Multi-Cloud',
+              to: 'docs/multi-cloud/'
+              },
             ],
           },
           {
