@@ -79,17 +79,12 @@ export type Project = {
   tags: TagType[];
   type: ProjectType;
 };
+
 export type ProjectType = 'Personal' | 'Collaboration' | 'Other';
-export const ProjectTypes: {[type in ProjectType]: string} = {
-  'Personal': translate({
-    id: 'project.type.personal',
-    message: 'Personal'}),
-  'Collaboration': translate({
-    id: 'project.type.collaboration',
-    message: 'Collaboration'}),
-  'Other': translate({
-    id: 'project.type.translate',
-    message: 'Other'}),
+export const ProjectTypes: {[type in ProjectType]: { label: string }} = {
+  'Personal': { label: translate({ id: 'project.type.personal', message: 'Personal' }) },
+  'Collaboration': { label: translate({ id: 'project.type.collaboration', message: 'Collaboration' }) },
+  'Other': { label: translate({ id: 'project.type.other', message: 'Other' }) },
 };
 
 export type TagType =

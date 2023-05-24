@@ -45,7 +45,21 @@
       items: [
         'projects/cloud-resume-challenge-gcp/crc-gcp-week1',
       ],
-    }
+    },
+  ],
+  'multi-cloud': [
+    'multi-cloud/introduction',
+    {
+      label: 'Microsoft',
+      type: 'category',
+      link: {
+        type: 'doc',
+        id: 'multi-cloud/microsoft/microsoft-intro'
+      },
+      items: [
+        'multi-cloud/microsoft/microsoft-ms900'
+      ],
+    },
   ],
 }
 
