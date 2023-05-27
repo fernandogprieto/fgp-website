@@ -19,6 +19,10 @@
     "message": "Documentación",
     "description": "The label of footer link with label=Docs linking to docs/projects"
   },
+  "link.item.label.Multi-cloud": {
+    "message": "Multi-nube",
+    "description": "The label of footer link with label=Multi-cloud linking to docs/multi-cloud"
+  },
   "link.item.label.Email me": {
     "message": "Correo",
     "description": "The label of footer link with label=Email me linking to mailto:prieto.fernandog@gmail.com"
@@ -48,7 +52,7 @@
     "description": "The label of footer link with label=Status linking to https://gitlab.com/fernandogprieto/fgp-website"
   },
   "copyright": {
-    "message": "Copyright © 2023 Fernando Prieto Website. Built with Docusaurus.",
+    "message": "Copyright © 2023 Fernando Prieto  Web.  Hecho con Docusaurus.",
     "description": "The footer copyright"
   },
   "link.item.label.Tags": {
