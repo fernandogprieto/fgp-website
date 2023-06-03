@@ -838,7 +838,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'ChatGPT',
         desc: 'Generative pre-trained transformer.',
-        logo: 'https://chat.openai.com/apple-touch-icon.png',
+        logo: 'https://chat.openai.com/favicon.ico',
         href: 'https://chat.openai.com/',
         tags: ['AI'],
       },
