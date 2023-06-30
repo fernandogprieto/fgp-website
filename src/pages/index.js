@@ -14,7 +14,7 @@ function HomepageHeader() {
             <Translate id="homepage.welcome"> Welcome to my Cloud Journey</Translate>
           </h1>
           <p>
-            <Translate id="homepage.tags">#Cloud, #Innovation, #Technology, #OpenSource</Translate>
+            <Translate id="homepage.tags">#Cloud, #Innovation, #Technology, #OpenSource #AI</Translate>
           </p>
           </div>
           <div className='col col--6 justified'>

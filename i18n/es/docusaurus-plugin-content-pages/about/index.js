@@ -11,7 +11,7 @@ function AboutpageHeader() {
         <div className='row'>
           <div className='col col--6 justified'>
           <h1 className="about-title" title="Sobre mí"></h1>
-          <h3 className="about-title"> Especialista en Soporte Técnico | Consultor y Asesor de TI | Ingeniería | Atención al Cliente | Capacitación en Computación en la Nube</h3>
+          <h3 className="about-title"> Especialista en Soporte Técnico | Consultor TI | Ingeniería | ITIL | Atención al Cliente | Capacitación en Computación en la Nube</h3>
             <p> Soy un entusiasta del código abierto y las tecnologías nativas de la nube. Disfruto descubriendo nuevas tecnologías, contribuyendo a proyectos comunitarios,
              y compartiendo mi experiencia con otros para fomentar la innovación y la cooperación en el sector de TI.</p>
 
