@@ -11,7 +11,7 @@ function AboutpageHeader() {
         <div className='row'>
           <div className='col col--6 justified'>
           <h1 className="about-title" title="About me">About me</h1>
-          <h3 className="about-title"> IT Support Specialist | IT Consultant & IT Advisor | Engineering | Customer Service | Cloud Computing Training </h3>
+          <h3 className="about-title"> IT Support Specialist | IT Consultant | Engineering | ITIL | Customer Service | Cloud Computing Training </h3>
            <p>I'm open source and cloud-native enthusiast. I enjoy discovering new technologies, contributing to community projects,
            and sharing my expertise with others in order to foster innovation and cooperation in the IT sector.</p>
 
