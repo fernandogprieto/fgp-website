@@ -322,7 +322,7 @@ export const resourceData: ResourceCategory[] = [
         },
         {
           name: 'Boto3',
-          desc: 'Is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python.',
+          desc: 'The AWS SDK for Python.',
           logo: '/img/resources/python-module.png',
           href: 'https://pypi.org/project/boto3/',
           tags: ['Python']
@@ -352,7 +352,28 @@ export const resourceData: ResourceCategory[] = [
           name: 'Smtplib',
           desc: 'SMTP protocol client.',
           logo: '/img/resources/python-module.png',
-          href: 'https://pyyaml.org/wiki/PyYAMLDocumentation',
+          href: 'https://docs.python.org/3/library/smtplib.html',
+          tags: ['Python']
+        },
+        {
+          name: 'Fabric',
+          desc: 'High level SSH command execution',
+          logo: '/img/resources/fabric.png ',
+          href: 'https://docs.fabfile.org/en/latest/  ',
+          tags: ['Python']
+        },
+        {
+          name: 'PyWinRM',
+          desc: 'Python library for Windows Remote Management',
+          logo: '/img/resources/python-module.png',
+          href: 'https://pypi.org/project/pywinrm/',
+          tags: ['Python']
+        },
+        {
+          name: 'PyTest',
+          desc: 'simple powerful testing with Python',
+          logo: '/img/resources/pytest.svg',
+          href: 'https://docs.pytest.org/en/stable/',
           tags: ['Python']
         },
       ],
@@ -863,6 +884,13 @@ export const resourceData: ResourceCategory[] = [
         href: 'https://bard.google.com/',
         tags: ['AI'],
       },
+      {
+        name: 'MidJourney',
+        desc: 'AI image generator ',
+        logo: 'https://www.midjourney.com/favicon.ico',
+        href: '/img/resources/bard.png',
+        tags: ['AI'],
+      },
     ],
   },
   {
@@ -929,6 +957,13 @@ export const resourceData: ResourceCategory[] = [
         desc: 'The fundamental package for scientific computing with Python.',
         logo: 'https://numpy.org/images/logo.svg',
         href: 'https://numpy.org/',
+        tags: ['MLOps'],
+      },
+      {
+        name: 'PyTorch',
+        desc: 'The fundamental package for scientific computing with Python.',
+        logo: '/img/resources/pytorch.png',
+        href: 'https://pytorch.org/',
         tags: ['MLOps'],
       },
       {
