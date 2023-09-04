@@ -1,4 +1,3 @@
-
 /* eslint-disable global-require */
 
 import  {translate} from '@docusaurus/Translate';
@@ -18,10 +17,10 @@ const Projects: Project[] = [
     }),
     preview: require('@site/static/img/projects/docusaurus/fernandogprieto.png'),
     website: 'https://www.fernandogprieto.com/',
-    source: 'https://gitlab.com/fernandogprieto/fgp-website',
+    source: 'https://github.com/fernandogprieto/fgp-website',
     docs: 'https://www.fernandogprieto.com/docs/docusuarus-intro',
     tags: ['opensource', 'favorite', 'personal', 'i18n'],
-    type: 'Personal',
+    type: 'cloud',
   },
   {
     title: translate({
@@ -36,22 +35,30 @@ const Projects: Project[] = [
     }),
     preview: require('@site/static/img/projects/docusaurus/crc-gcp.png'),
     website: 'https://www.fernandogprieto.dev',
-    source: 'https://gitlab.com/fernandogprieto/cloud-resume-challenge-frontend',
+    source: 'https://github.com/fernandogprieto/cloud-resume-challenge-gcp',
     docs: 'https://www.fernandogprieto.com/docs/crc-gcp-intro',
     tags: ['opensource', 'favorite'],
-    type: 'Personal',
+    type: 'cloud',
 
   },
-  /*{
-    title: 'TSEI.JP',
-    description: 'TSEI.JP personal website, articles and docs',
-    preview: null,
-    website: 'https://tsei.jp/',
-    source: null,
-    docs: null,
-    tags: ['personal'],
-    type: 'Collaboration',
-  },*/
+  {
+    title: translate({
+      id: 'project.discordproject.title',
+      message: 'Discord Project Community',
+      description: 'Title for Collaboration Discord project GCP',
+    }),
+    description: translate({
+      id: 'project.discordproject.description',
+      message: '💬 Build and improve a discord server for a Google Comunity Cloud Santiago',
+      description: 'Description for GDGCloudSantiago Discord Project',
+    }),
+    preview: require('@site/static/img/projects/collaboration/gdgcloudsantiago-discord.png'),
+    website: 'https://discord.gg/Yx9NfVSH49',
+    source: 'https://github.com/gdgcloudsantiago/discord-project-community',
+    docs: 'https://www.fernandogprieto.com/docs/gdg-discord-intro',
+    tags: ['opensource', 'i18n'],
+    type: 'collaboration',
+  },
   {
     title: translate({
       id: 'project.dotfiles.title',
@@ -63,9 +70,9 @@ const Projects: Project[] = [
       message: 'This collection features my meticulously assembled personal dotfiles, tailored to optimize my development environment for peak efficiency and seamless workflow..',
       description: 'Description for Dotfiles project',
     }),
-    website: 'https://gitlab.com/fernandogprieto/dotfiles',
+    website: 'https://github.com/fernandogprieto/dotfiles',
     tags: ['opensource'],
-    type: 'Other',
+    type: 'other',
   },
 ];
 
@@ -80,11 +87,19 @@ export type Project = {
   type: ProjectType;
 };
 
-export type ProjectType = 'Personal' | 'Collaboration' | 'Other';
-export const ProjectTypes: {[type in ProjectType]: { label: string }} = {
-  'Personal': { label: translate({ id: 'project.type.personal', message: 'Personal' }) },
-  'Collaboration': { label: translate({ id: 'project.type.collaboration', message: 'Collaboration' }) },
-  'Other': { label: translate({ id: 'project.type.other', message: 'Other' }) },
+export type ProjectType = 'cloud' | 'collaboration' | 'other' | 'personal' | 'ai'
+
+export type Pro = {
+  label: string;
+};
+
+export const ProjectTypes: {[type in ProjectType]: Pro} =
+   {
+  cloud: { label: translate({ message: 'Cloud' }) },
+  collaboration: { label: translate({ message: 'Colaboration', }) },
+  other: { label: translate({ message: 'Others' }) },
+  personal: { label: translate({ message: 'Personal' }) },
+  ai: { label: translate({ message: 'AI' }) },
 };
 
 export type TagType =

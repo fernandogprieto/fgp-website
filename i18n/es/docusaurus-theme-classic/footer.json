@@ -31,9 +31,9 @@
     "message": "Blog",
     "description": "The label of footer link with label=Blog linking to blog/"
   },
-  "link.item.label.Gitlab": {
-    "message": "Gitlab",
-    "description": "The label of footer link with label=Gitlab linking to https://gitlab.com/fernandogprieto/fgp-website"
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Gitlab linking to https://github.com/fernandogprieto/fgp-website"
   },
   "link.item.label.LinkedIn": {
     "message": "LinkedIn",
@@ -49,7 +49,7 @@
   },
   "link.item.label.Status": {
     "message": "Estatus",
-    "description": "The label of footer link with label=Status linking to https://gitlab.com/fernandogprieto/fgp-website"
+    "description": "The label of footer link with label=Status linking to https://github.com/fernandogprieto/fgp-website"
   },
   "copyright": {
     "message": "Copyright © 2023 Fernando Prieto  Web.  Hecho con Docusaurus.",
