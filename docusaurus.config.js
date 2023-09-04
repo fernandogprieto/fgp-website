@@ -166,6 +166,9 @@ const config = {
                 label: 'Status',
                 href: 'https://status.fernandogprieto.com',
               },
+              {
+              html: `<a href="https://docusaurus.io/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwithdocusaurus.png" /><a/>`,
+              },
             ],
           },
         ],

@@ -17,7 +17,7 @@ const DESCRIPTION = translate({
   message: 'Explore projects I have developed and contributed to',
 })
 
-const SUBMIT_URL = 'https://gitlab.com/fernandogprieto/';
+const SUBMIT_URL = 'https://github.com/fernandogprieto/';
 
 
 function ShowcaseHeader() {

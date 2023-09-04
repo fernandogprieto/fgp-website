@@ -501,21 +501,25 @@
       "message": "📚 Construir y desplegar un sitio web de currículum personal utilizando los servicios de Google Cloud Platform, mostrando la experiencia y práctica en tecnología de la nube.",
       "description": "Description for Cloud Resume Challenge project"
   },
-  "project.dotfiles.title": {
-      "message": "Dotfiles",
-      "description": "Title for Dotfiles project"
+  "project.discordproject.title": {
+    "message": "Proyecto Discord para una Comunidad",
+    "description": "Title for Collaboration Discord project GCP"
+  },
+  "project.discordproject.description": {
+    "message": "💬 Construir y mejorar un servidor de discord para un Comunidad de Google Cloud Santiago",
+    "description": "Description for GDGCloudSantiago Discord Project"
   },
   "project.dotfiles.description": {
       "message": "Están diseñados para optimizar mi entorno de desarrollo para una eficiencia máxima y un flujo de trabajo sin interrupciones",
       "description": "Description for Dotfiles project"
   },
-  "project.type.personal": {
-    "message": "Personal"
+  "cloud":{
+    "message": "Nube"
   },
-  "project.type.collaboration": {
-    "message": "Colaboración"
+  "collaboration": {
+  "message": "Colaboración"
   },
-  "project.type.other": {
+  "other": {
     "message": "Otro"
   }
 }
