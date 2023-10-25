@@ -143,10 +143,10 @@ const config = {
               },
               {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/fernando-prieto-carabobo/',
+                href: 'https://www.linkedin.com/in/fernandogprieto/',
               },
               {
-                label: 'Twitter - X',
+                label: 'X',
                 href: 'https://twitter.com/fernandogprieto',
               },
               {

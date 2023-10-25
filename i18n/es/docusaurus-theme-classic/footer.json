@@ -33,11 +33,11 @@
   },
   "link.item.label.Github": {
     "message": "Github",
-    "description": "The label of footer link with label=Gitlab linking to https://github.com/fernandogprieto/fgp-website"
+    "description": "The label of footer link with label=Gitlab linking to https://github.com/fernandogprieto"
   },
   "link.item.label.LinkedIn": {
     "message": "LinkedIn",
-    "description": "The label of footer link with label=LinkedIn linking to https://www.linkedin.com/in/fernando-prieto-carabobo/"
+    "description": "The label of footer link with label=LinkedIn linking to https://www.linkedin.com/in/fernandogprieto/"
   },
   "link.item.label.Twitter": {
     "message": "Twitter",
