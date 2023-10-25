@@ -55,7 +55,7 @@ function AboutpageHeader() {
                   }}
                 />
               </a>
-              <a href="https://www.linkedin.com/in/fernando-prieto-carabobo/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/fernandogprieto/" target="_blank" rel="noopener noreferrer">
                 <ThemedImage
                   alt="LinkedIn icon"
                   sources={{
