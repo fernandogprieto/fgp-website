@@ -139,7 +139,7 @@ const config = {
               },
               {
                 label: 'Github',
-                href: 'https://github.com/fernandogprieto/fgp-website',
+                href: 'https://github.com/fernandogprieto/',
               },
               {
                 label: 'LinkedIn',
